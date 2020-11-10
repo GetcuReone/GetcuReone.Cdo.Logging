@@ -1,0 +1,12 @@
+C:\Users\ItuaZ\OneDrive\Документы\Projects\GetcuReone\OpenSource-Projects\GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging\bin\Debug\netstandard2.0\LICENSE.txt
+C:\Users\ItuaZ\OneDrive\Документы\Projects\GetcuReone\OpenSource-Projects\GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging\bin\Debug\netstandard2.0\README.md
+C:\Users\ItuaZ\OneDrive\Документы\Projects\GetcuReone\OpenSource-Projects\GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging\bin\Debug\netstandard2.0\GetcuReone.Cdo.Logging.deps.json
+C:\Users\ItuaZ\OneDrive\Документы\Projects\GetcuReone\OpenSource-Projects\GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging\bin\Debug\netstandard2.0\GetcuReone.Cdo.Logging.dll
+C:\Users\ItuaZ\OneDrive\Документы\Projects\GetcuReone\OpenSource-Projects\GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging\bin\Debug\netstandard2.0\GetcuReone.Cdo.Logging.pdb
+C:\Users\ItuaZ\OneDrive\Документы\Projects\GetcuReone\OpenSource-Projects\GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging\bin\Debug\netstandard2.0\GetcuReone.Cdo.Logging.xml
+C:\Users\ItuaZ\OneDrive\Документы\Projects\GetcuReone\OpenSource-Projects\GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging\obj\Debug\netstandard2.0\GetcuReone.Cdo.Logging.csprojAssemblyReference.cache
+C:\Users\ItuaZ\OneDrive\Документы\Projects\GetcuReone\OpenSource-Projects\GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging\obj\Debug\netstandard2.0\GetcuReone.Cdo.Logging.AssemblyInfoInputs.cache
+C:\Users\ItuaZ\OneDrive\Документы\Projects\GetcuReone\OpenSource-Projects\GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging\obj\Debug\netstandard2.0\GetcuReone.Cdo.Logging.AssemblyInfo.cs
+C:\Users\ItuaZ\OneDrive\Документы\Projects\GetcuReone\OpenSource-Projects\GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging\obj\Debug\netstandard2.0\GetcuReone.Cdo.Logging.csproj.CoreCompileInputs.cache
+C:\Users\ItuaZ\OneDrive\Документы\Projects\GetcuReone\OpenSource-Projects\GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging\obj\Debug\netstandard2.0\GetcuReone.Cdo.Logging.dll
+C:\Users\ItuaZ\OneDrive\Документы\Projects\GetcuReone\OpenSource-Projects\GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging\obj\Debug\netstandard2.0\GetcuReone.Cdo.Logging.pdb

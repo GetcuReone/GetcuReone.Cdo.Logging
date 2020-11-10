@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetcuReone.Cdo.Logging", "GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging.csproj", "{D46421DF-282D-4C3F-90A1-ABFE06B46CBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D46421DF-282D-4C3F-90A1-ABFE06B46CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D46421DF-282D-4C3F-90A1-ABFE06B46CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D46421DF-282D-4C3F-90A1-ABFE06B46CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D46421DF-282D-4C3F-90A1-ABFE06B46CBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3690442A-C6FA-4A74-AD1D-C90D6A79FCB0}
+	EndGlobalSection
+EndGlobal

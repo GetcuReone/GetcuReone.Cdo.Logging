@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GetcuReone.Cdo.Logging</id>
+    <version>1.0.0</version>
+    <authors>Itua Juel-Gaben</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <projectUrl>https://github.com/GetcuReone/GetcuReone.Cdm</projectUrl>
+    <description>A project that implements the integration of logging.</description>
+    <releaseNotes>Changes:
+            - publish to GitHub.</releaseNotes>
+    <copyright>Copyright © 2020 Itua Juel-Gaben</copyright>
+    <tags>getcureone cdo logging</tags>
+    <repository type="git" url="https://github.com/GetcuReone/GetcuReone.Cdm" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\ItuaZ\OneDrive\Документы\Projects\GetcuReone\OpenSource-Projects\GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging\bin\Debug\netstandard2.0\GetcuReone.Cdo.Logging.pdb" target="lib\netstandard2.0\GetcuReone.Cdo.Logging.pdb" />
+  </files>
+</package>
