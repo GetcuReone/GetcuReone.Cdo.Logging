@@ -287,3756 +287,1184 @@ namespace GetcuReone.Cdo.Logging
                 logger.Debug(message, argument1, argument2);
         }
 
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Error(IFormatProvider formatProvider, string message, float argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Error(string message, long argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Error(IFormatProvider formatProvider, string message, decimal argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Error(IFormatProvider formatProvider, string message, double argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Error(string message, double argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Error(IFormatProvider formatProvider, string message, long argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Error(string message, float argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Error(string message, int argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Error(IFormatProvider formatProvider, string message, char argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Error(string message, string argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Error(IFormatProvider formatProvider, string message, string argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Error(string message, byte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Error(IFormatProvider formatProvider, string message, byte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Error(string message, char argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Error(string message, decimal argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Error(string message, bool argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Error(IFormatProvider formatProvider, string message, bool argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified parameters.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing format items.
-        //
-        //   arg1:
-        //     First argument to format.
-        //
-        //   arg2:
-        //     Second argument to format.
-        //
-        //   arg3:
-        //     Third argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Error(string message, object arg1, object arg2, object arg3);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified parameters.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing format items.
-        //
-        //   arg1:
-        //     First argument to format.
-        //
-        //   arg2:
-        //     Second argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Error(string message, object arg1, object arg2);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Error(IFormatProvider formatProvider, string message, int argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Error(IFormatProvider formatProvider, string message, object argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified arguments
-        //     formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument1:
-        //     The first argument to format.
-        //
-        //   argument2:
-        //     The second argument to format.
-        //
-        //   argument3:
-        //     The third argument to format.
-        //
-        // Type parameters:
-        //   TArgument1:
-        //     The type of the first argument.
-        //
-        //   TArgument2:
-        //     The type of the second argument.
-        //
-        //   TArgument3:
-        //     The type of the third argument.
-        [MessageTemplateFormatMethod("message")]
-        void Error<TArgument1, TArgument2, TArgument3>(IFormatProvider formatProvider, [Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Error(IFormatProvider formatProvider, string message, sbyte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   value:
-        //     A object to be written.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Error(IFormatProvider formatProvider, object value);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level.
-        //
-        // Parameters:
-        //   value:
-        //     The value to be written.
-        //
-        // Type parameters:
-        //   T:
-        //     Type of the value.
-        void Error<T>(T value);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   value:
-        //     The value to be written.
-        //
-        // Type parameters:
-        //   T:
-        //     Type of the value.
-        void Error<T>(IFormatProvider formatProvider, T value);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level.
-        //
-        // Parameters:
-        //   messageFunc:
-        //     A function returning message to be written. Function is not evaluated if logging
-        //     is not enabled.
-        void Error(LogMessageGenerator messageFunc);
-        //
-        // Summary:
-        //     Writes the diagnostic message and exception at the Error level.
-        //
-        // Parameters:
-        //   message:
-        //     A string to be written.
-        //
-        //   exception:
-        //     An exception to be logged.
-        void Error(Exception exception, [Localizable(false)] string message);
-        //
-        // Summary:
-        //     Writes the diagnostic message and exception at the Error level.
-        //
-        // Parameters:
-        //   message:
-        //     A string to be written.
-        //
-        //   exception:
-        //     An exception to be logged.
-        //
-        //   args:
-        //     Arguments to format.
-        [MessageTemplateFormatMethod("message")]
-        void Error(Exception exception, [Localizable(false)] string message, params object[] args);
-        //
-        // Summary:
-        //     Writes the diagnostic message and exception at the Error level.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string to be written.
-        //
-        //   exception:
-        //     An exception to be logged.
-        //
-        //   args:
-        //     Arguments to format.
-        [MessageTemplateFormatMethod("message")]
-        void Error(Exception exception, IFormatProvider formatProvider, [Localizable(false)] string message, params object[] args);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified parameters
-        //     and formatting them with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing format items.
-        //
-        //   args:
-        //     Arguments to format.
-        [MessageTemplateFormatMethod("message")]
-        void Error(IFormatProvider formatProvider, [Localizable(false)] string message, params object[] args);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level.
-        //
-        // Parameters:
-        //   message:
-        //     Log message.
-        void Error([Localizable(false)] string message);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified parameters.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument1:
-        //     The first argument to format.
-        //
-        //   argument2:
-        //     The second argument to format.
-        //
-        //   argument3:
-        //     The third argument to format.
-        //
-        // Type parameters:
-        //   TArgument1:
-        //     The type of the first argument.
-        //
-        //   TArgument2:
-        //     The type of the second argument.
-        //
-        //   TArgument3:
-        //     The type of the third argument.
-        [MessageTemplateFormatMethod("message")]
-        void Error<TArgument1, TArgument2, TArgument3>([Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified parameters.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing format items.
-        //
-        //   args:
-        //     Arguments to format.
-        [MessageTemplateFormatMethod("message")]
-        void Error([Localizable(false)] string message, params object[] args);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified parameter
-        //     and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        //
-        // Type parameters:
-        //   TArgument:
-        //     The type of the argument.
-        [MessageTemplateFormatMethod("message")]
-        void Error<TArgument>(IFormatProvider formatProvider, [Localizable(false)] string message, TArgument argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        //
-        // Type parameters:
-        //   TArgument:
-        //     The type of the argument.
-        [MessageTemplateFormatMethod("message")]
-        void Error<TArgument>([Localizable(false)] string message, TArgument argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified arguments
-        //     formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument1:
-        //     The first argument to format.
-        //
-        //   argument2:
-        //     The second argument to format.
-        //
-        // Type parameters:
-        //   TArgument1:
-        //     The type of the first argument.
-        //
-        //   TArgument2:
-        //     The type of the second argument.
-        [MessageTemplateFormatMethod("message")]
-        void Error<TArgument1, TArgument2>(IFormatProvider formatProvider, [Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified parameters.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument1:
-        //     The first argument to format.
-        //
-        //   argument2:
-        //     The second argument to format.
-        //
-        // Type parameters:
-        //   TArgument1:
-        //     The type of the first argument.
-        //
-        //   TArgument2:
-        //     The type of the second argument.
-        [MessageTemplateFormatMethod("message")]
-        void Error<TArgument1, TArgument2>([Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Error(string message, ulong argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Error(IFormatProvider formatProvider, string message, ulong argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Error(string message, uint argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Error(IFormatProvider formatProvider, string message, uint argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Error(string message, sbyte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message and exception at the Error level.
-        //
-        // Parameters:
-        //   message:
-        //     A string to be written.
-        //
-        //   exception:
-        //     An exception to be logged.
-        //
-        // Remarks:
-        //     This method was marked as obsolete before NLog 4.3.11 and it may be removed in
-        //     a future release.
-        [Obsolete("Use Error(Exception exception, string message, params object[] args) method instead. Marked obsolete before v4.3.11")]
-        void Error([Localizable(false)] string message, Exception exception);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level.
-        //
-        // Parameters:
-        //   value:
-        //     A object to be written.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Error(object value);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Error(string message, object argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message and exception at the Error level.
-        //
-        // Parameters:
-        //   message:
-        //     A string to be written.
-        //
-        //   exception:
-        //     An exception to be logged.
-        //
-        // Remarks:
-        //     This method was marked as obsolete before NLog 4.3.11 and it may be removed in
-        //     a future release.
-        [Obsolete("Use Error(Exception exception, string message, params object[] args) method instead. Marked obsolete before v4.3.11")]
-        void ErrorException([Localizable(false)] string message, Exception exception);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(IFormatProvider formatProvider, string message, char argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(string message, ulong argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(IFormatProvider formatProvider, string message, ulong argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(string message, uint argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(IFormatProvider formatProvider, string message, uint argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(string message, sbyte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(IFormatProvider formatProvider, string message, sbyte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(string message, object argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(IFormatProvider formatProvider, string message, object argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Fatal(string message, decimal argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(IFormatProvider formatProvider, string message, decimal argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level.
-        //
-        // Parameters:
-        //   value:
-        //     A object to be written.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Fatal(object value);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   value:
-        //     A object to be written.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Fatal(IFormatProvider formatProvider, object value);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified parameters.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing format items.
-        //
-        //   arg1:
-        //     First argument to format.
-        //
-        //   arg2:
-        //     Second argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(string message, object arg1, object arg2);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified parameters.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing format items.
-        //
-        //   arg1:
-        //     First argument to format.
-        //
-        //   arg2:
-        //     Second argument to format.
-        //
-        //   arg3:
-        //     Third argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(string message, object arg1, object arg2, object arg3);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(string message, bool argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(string message, double argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(string message, char argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(IFormatProvider formatProvider, string message, byte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(string message, byte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(IFormatProvider formatProvider, string message, string argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(string message, string argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(IFormatProvider formatProvider, string message, int argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(string message, int argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(IFormatProvider formatProvider, string message, long argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(string message, long argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(IFormatProvider formatProvider, string message, float argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(IFormatProvider formatProvider, string message, bool argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(string message, float argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(IFormatProvider formatProvider, string message, double argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified parameter
-        //     and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        //
-        // Type parameters:
-        //   TArgument:
-        //     The type of the argument.
-        [MessageTemplateFormatMethod("message")]
-        void Fatal<TArgument>(IFormatProvider formatProvider, [Localizable(false)] string message, TArgument argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level.
-        //
-        // Parameters:
-        //   messageFunc:
-        //     A function returning message to be written. Function is not evaluated if logging
-        //     is not enabled.
-        void Fatal(LogMessageGenerator messageFunc);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   value:
-        //     The value to be written.
-        //
-        // Type parameters:
-        //   T:
-        //     Type of the value.
-        void Fatal<T>(IFormatProvider formatProvider, T value);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level.
-        //
-        // Parameters:
-        //   value:
-        //     The value to be written.
-        //
-        // Type parameters:
-        //   T:
-        //     Type of the value.
-        void Fatal<T>(T value);
-        //
-        // Summary:
-        //     Writes the diagnostic message and exception at the Fatal level.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string to be written.
-        //
-        //   exception:
-        //     An exception to be logged.
-        //
-        //   args:
-        //     Arguments to format.
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(Exception exception, IFormatProvider formatProvider, [Localizable(false)] string message, params object[] args);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified parameters
-        //     and formatting them with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing format items.
-        //
-        //   args:
-        //     Arguments to format.
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(IFormatProvider formatProvider, [Localizable(false)] string message, params object[] args);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level.
-        //
-        // Parameters:
-        //   message:
-        //     Log message.
-        void Fatal([Localizable(false)] string message);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified parameters.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing format items.
-        //
-        //   args:
-        //     Arguments to format.
-        [MessageTemplateFormatMethod("message")]
-        void Fatal([Localizable(false)] string message, params object[] args);
-        //
-        // Summary:
-        //     Writes the diagnostic message and exception at the Fatal level.
-        //
-        // Parameters:
-        //   message:
-        //     A string to be written.
-        //
-        //   exception:
-        //     An exception to be logged.
-        //
-        // Remarks:
-        //     This method was marked as obsolete before NLog 4.3.11 and it may be removed in
-        //     a future release.
-        [Obsolete("Use Fatal(Exception exception, string message, params object[] args) method instead. Marked obsolete before v4.3.11")]
-        void Fatal([Localizable(false)] string message, Exception exception);
-        //
-        // Summary:
-        //     Writes the diagnostic message and exception at the Fatal level.
-        //
-        // Parameters:
-        //   message:
-        //     A string to be written.
-        //
-        //   exception:
-        //     An exception to be logged.
-        //
-        //   args:
-        //     Arguments to format.
-        [MessageTemplateFormatMethod("message")]
-        void Fatal(Exception exception, [Localizable(false)] string message, params object[] args);
-        //
-        // Summary:
-        //     Writes the diagnostic message and exception at the Fatal level.
-        //
-        // Parameters:
-        //   message:
-        //     A string to be written.
-        //
-        //   exception:
-        //     An exception to be logged.
-        void Fatal(Exception exception, [Localizable(false)] string message);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified arguments
-        //     formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument1:
-        //     The first argument to format.
-        //
-        //   argument2:
-        //     The second argument to format.
-        //
-        // Type parameters:
-        //   TArgument1:
-        //     The type of the first argument.
-        //
-        //   TArgument2:
-        //     The type of the second argument.
-        [MessageTemplateFormatMethod("message")]
-        void Fatal<TArgument1, TArgument2>(IFormatProvider formatProvider, [Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified parameters.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument1:
-        //     The first argument to format.
-        //
-        //   argument2:
-        //     The second argument to format.
-        //
-        // Type parameters:
-        //   TArgument1:
-        //     The type of the first argument.
-        //
-        //   TArgument2:
-        //     The type of the second argument.
-        [MessageTemplateFormatMethod("message")]
-        void Fatal<TArgument1, TArgument2>([Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified arguments
-        //     formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument1:
-        //     The first argument to format.
-        //
-        //   argument2:
-        //     The second argument to format.
-        //
-        //   argument3:
-        //     The third argument to format.
-        //
-        // Type parameters:
-        //   TArgument1:
-        //     The type of the first argument.
-        //
-        //   TArgument2:
-        //     The type of the second argument.
-        //
-        //   TArgument3:
-        //     The type of the third argument.
-        [MessageTemplateFormatMethod("message")]
-        void Fatal<TArgument1, TArgument2, TArgument3>(IFormatProvider formatProvider, [Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified parameters.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument1:
-        //     The first argument to format.
-        //
-        //   argument2:
-        //     The second argument to format.
-        //
-        //   argument3:
-        //     The third argument to format.
-        //
-        // Type parameters:
-        //   TArgument1:
-        //     The type of the first argument.
-        //
-        //   TArgument2:
-        //     The type of the second argument.
-        //
-        //   TArgument3:
-        //     The type of the third argument.
-        [MessageTemplateFormatMethod("message")]
-        void Fatal<TArgument1, TArgument2, TArgument3>([Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        //
-        // Type parameters:
-        //   TArgument:
-        //     The type of the argument.
-        [MessageTemplateFormatMethod("message")]
-        void Fatal<TArgument>([Localizable(false)] string message, TArgument argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message and exception at the Fatal level.
-        //
-        // Parameters:
-        //   message:
-        //     A string to be written.
-        //
-        //   exception:
-        //     An exception to be logged.
-        //
-        // Remarks:
-        //     This method was marked as obsolete before NLog 4.3.11 and it may be removed in
-        //     a future release.
-        [Obsolete("Use Fatal(Exception exception, string message, params object[] args) method instead. Marked obsolete before v4.3.11")]
-        void FatalException([Localizable(false)] string message, Exception exception);
-        //
-        // Summary:
-        //     Writes the diagnostic message and exception at the Info level.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string to be written.
-        //
-        //   exception:
-        //     An exception to be logged.
-        //
-        //   args:
-        //     Arguments to format.
-        [MessageTemplateFormatMethod("message")]
-        void Info(Exception exception, IFormatProvider formatProvider, [Localizable(false)] string message, params object[] args);
-        //
-        // Summary:
-        //     Writes the diagnostic message and exception at the Info level.
-        //
-        // Parameters:
-        //   message:
-        //     A string to be written.
-        //
-        //   exception:
-        //     An exception to be logged.
-        //
-        //   args:
-        //     Arguments to format.
-        [MessageTemplateFormatMethod("message")]
-        void Info(Exception exception, [Localizable(false)] string message, params object[] args);
-        //
-        // Summary:
-        //     Writes the diagnostic message and exception at the Info level.
-        //
-        // Parameters:
-        //   message:
-        //     A string to be written.
-        //
-        //   exception:
-        //     An exception to be logged.
-        void Info(Exception exception, [Localizable(false)] string message);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level.
-        //
-        // Parameters:
-        //   messageFunc:
-        //     A function returning message to be written. Function is not evaluated if logging
-        //     is not enabled.
-        void Info(LogMessageGenerator messageFunc);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Info(IFormatProvider formatProvider, string message, char argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified parameters
-        //     and formatting them with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing format items.
-        //
-        //   args:
-        //     Arguments to format.
-        [MessageTemplateFormatMethod("message")]
-        void Info(IFormatProvider formatProvider, [Localizable(false)] string message, params object[] args);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Info(string message, char argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message and exception at the Info level.
-        //
-        // Parameters:
-        //   message:
-        //     A string to be written.
-        //
-        //   exception:
-        //     An exception to be logged.
-        //
-        // Remarks:
-        //     This method was marked as obsolete before NLog 4.3.11 and it may be removed in
-        //     a future release.
-        [Obsolete("Use Info(Exception exception, string message, params object[] args) method instead. Marked obsolete before v4.3.11")]
-        void Info([Localizable(false)] string message, Exception exception);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Info(IFormatProvider formatProvider, string message, bool argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        //
-        // Type parameters:
-        //   TArgument:
-        //     The type of the argument.
-        [MessageTemplateFormatMethod("message")]
-        void Info<TArgument>([Localizable(false)] string message, TArgument argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified arguments
-        //     formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument1:
-        //     The first argument to format.
-        //
-        //   argument2:
-        //     The second argument to format.
-        //
-        // Type parameters:
-        //   TArgument1:
-        //     The type of the first argument.
-        //
-        //   TArgument2:
-        //     The type of the second argument.
-        [MessageTemplateFormatMethod("message")]
-        void Info<TArgument1, TArgument2>(IFormatProvider formatProvider, [Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified parameters.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument1:
-        //     The first argument to format.
-        //
-        //   argument2:
-        //     The second argument to format.
-        //
-        // Type parameters:
-        //   TArgument1:
-        //     The type of the first argument.
-        //
-        //   TArgument2:
-        //     The type of the second argument.
-        [MessageTemplateFormatMethod("message")]
-        void Info<TArgument1, TArgument2>([Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Info(string message, bool argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified arguments
-        //     formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument1:
-        //     The first argument to format.
-        //
-        //   argument2:
-        //     The second argument to format.
-        //
-        //   argument3:
-        //     The third argument to format.
-        //
-        // Type parameters:
-        //   TArgument1:
-        //     The type of the first argument.
-        //
-        //   TArgument2:
-        //     The type of the second argument.
-        //
-        //   TArgument3:
-        //     The type of the third argument.
-        [MessageTemplateFormatMethod("message")]
-        void Info<TArgument1, TArgument2, TArgument3>(IFormatProvider formatProvider, [Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified parameters.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing format items.
-        //
-        //   arg1:
-        //     First argument to format.
-        //
-        //   arg2:
-        //     Second argument to format.
-        //
-        //   arg3:
-        //     Third argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Info(string message, object arg1, object arg2, object arg3);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified parameters.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing format items.
-        //
-        //   arg1:
-        //     First argument to format.
-        //
-        //   arg2:
-        //     Second argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Info(string message, object arg1, object arg2);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   value:
-        //     A object to be written.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Info(IFormatProvider formatProvider, object value);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level.
-        //
-        // Parameters:
-        //   value:
-        //     A object to be written.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Info(object value);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified parameters.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing format items.
-        //
-        //   args:
-        //     Arguments to format.
-        [MessageTemplateFormatMethod("message")]
-        void Info([Localizable(false)] string message, params object[] args);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level.
-        //
-        // Parameters:
-        //   message:
-        //     Log message.
-        void Info([Localizable(false)] string message);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified parameters.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument1:
-        //     The first argument to format.
-        //
-        //   argument2:
-        //     The second argument to format.
-        //
-        //   argument3:
-        //     The third argument to format.
-        //
-        // Type parameters:
-        //   TArgument1:
-        //     The type of the first argument.
-        //
-        //   TArgument2:
-        //     The type of the second argument.
-        //
-        //   TArgument3:
-        //     The type of the third argument.
-        [MessageTemplateFormatMethod("message")]
-        void Info<TArgument1, TArgument2, TArgument3>([Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified parameter
-        //     and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        //
-        // Type parameters:
-        //   TArgument:
-        //     The type of the argument.
-        [MessageTemplateFormatMethod("message")]
-        void Info<TArgument>(IFormatProvider formatProvider, [Localizable(false)] string message, TArgument argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level.
-        //
-        // Parameters:
-        //   value:
-        //     The value to be written.
-        //
-        // Type parameters:
-        //   T:
-        //     Type of the value.
-        void Info<T>(T value);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Info(IFormatProvider formatProvider, string message, byte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Info(string message, ulong argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Info(IFormatProvider formatProvider, string message, ulong argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Info(string message, uint argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Info(IFormatProvider formatProvider, string message, uint argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Info(string message, sbyte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Info(IFormatProvider formatProvider, string message, sbyte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Info(string message, object argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Info(IFormatProvider formatProvider, string message, object argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   value:
-        //     The value to be written.
-        //
-        // Type parameters:
-        //   T:
-        //     Type of the value.
-        void Info<T>(IFormatProvider formatProvider, T value);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Info(IFormatProvider formatProvider, string message, decimal argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Info(string message, double argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Info(IFormatProvider formatProvider, string message, double argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Info(string message, decimal argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Info(IFormatProvider formatProvider, string message, string argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Info(string message, byte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Info(string message, string argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Info(IFormatProvider formatProvider, string message, int argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Info(string message, int argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Info(IFormatProvider formatProvider, string message, long argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Info(string message, long argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Info(string message, float argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Info(IFormatProvider formatProvider, string message, float argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message and exception at the Info level.
-        //
-        // Parameters:
-        //   message:
-        //     A string to be written.
-        //
-        //   exception:
-        //     An exception to be logged.
-        //
-        // Remarks:
-        //     This method was marked as obsolete before NLog 4.3.11 and it may be removed in
-        //     a future release.
-        [Obsolete("Use Info(Exception exception, string message, params object[] args) method instead. Marked obsolete before v4.3.11")]
-        void InfoException([Localizable(false)] string message, Exception exception);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Trace(IFormatProvider formatProvider, string message, byte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Trace(string message, bool argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Trace(IFormatProvider formatProvider, string message, bool argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified parameters.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing format items.
-        //
-        //   arg1:
-        //     First argument to format.
-        //
-        //   arg2:
-        //     Second argument to format.
-        //
-        //   arg3:
-        //     Third argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Trace(string message, object arg1, object arg2, object arg3);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified parameters.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing format items.
-        //
-        //   arg1:
-        //     First argument to format.
-        //
-        //   arg2:
-        //     Second argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Trace(string message, object arg1, object arg2);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Trace(string message, char argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   value:
-        //     A object to be written.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Trace(IFormatProvider formatProvider, object value);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Trace(IFormatProvider formatProvider, string message, char argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Trace(string message, byte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Trace(IFormatProvider formatProvider, string message, float argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Trace(string message, string argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Trace(string message, long argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Trace(IFormatProvider formatProvider, string message, int argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Trace(string message, int argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Trace(IFormatProvider formatProvider, string message, decimal argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Trace(string message, double argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Trace(IFormatProvider formatProvider, string message, double argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Trace(IFormatProvider formatProvider, string message, long argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Trace(string message, float argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Trace(IFormatProvider formatProvider, string message, string argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified arguments
-        //     formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument1:
-        //     The first argument to format.
-        //
-        //   argument2:
-        //     The second argument to format.
-        //
-        // Type parameters:
-        //   TArgument1:
-        //     The type of the first argument.
-        //
-        //   TArgument2:
-        //     The type of the second argument.
-        [MessageTemplateFormatMethod("message")]
-        void Trace<TArgument1, TArgument2>(IFormatProvider formatProvider, [Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level.
-        //
-        // Parameters:
-        //   value:
-        //     A object to be written.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Trace(object value);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Trace(IFormatProvider formatProvider, string message, object argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level.
-        //
-        // Parameters:
-        //   value:
-        //     The value to be written.
-        //
-        // Type parameters:
-        //   T:
-        //     Type of the value.
-        void Trace<T>(T value);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   value:
-        //     The value to be written.
-        //
-        // Type parameters:
-        //   T:
-        //     Type of the value.
-        void Trace<T>(IFormatProvider formatProvider, T value);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level.
-        //
-        // Parameters:
-        //   messageFunc:
-        //     A function returning message to be written. Function is not evaluated if logging
-        //     is not enabled.
-        void Trace(LogMessageGenerator messageFunc);
-        //
-        // Summary:
-        //     Writes the diagnostic message and exception at the Trace level.
-        //
-        // Parameters:
-        //   message:
-        //     A string to be written.
-        //
-        //   exception:
-        //     An exception to be logged.
-        void Trace(Exception exception, [Localizable(false)] string message);
-        //
-        // Summary:
-        //     Writes the diagnostic message and exception at the Trace level.
-        //
-        // Parameters:
-        //   message:
-        //     A string to be written.
-        //
-        //   exception:
-        //     An exception to be logged.
-        //
-        //   args:
-        //     Arguments to format.
-        [MessageTemplateFormatMethod("message")]
-        void Trace(Exception exception, [Localizable(false)] string message, params object[] args);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Trace(string message, decimal argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified parameters
-        //     and formatting them with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing format items.
-        //
-        //   args:
-        //     Arguments to format.
-        [MessageTemplateFormatMethod("message")]
-        void Trace(IFormatProvider formatProvider, [Localizable(false)] string message, params object[] args);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level.
-        //
-        // Parameters:
-        //   message:
-        //     Log message.
-        void Trace([Localizable(false)] string message);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified parameters.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing format items.
-        //
-        //   args:
-        //     Arguments to format.
-        [MessageTemplateFormatMethod("message")]
-        void Trace([Localizable(false)] string message, params object[] args);
-        //
-        // Summary:
-        //     Writes the diagnostic message and exception at the Trace level.
-        //
-        // Parameters:
-        //   message:
-        //     A string to be written.
-        //
-        //   exception:
-        //     An exception to be logged.
-        //
-        // Remarks:
-        //     This method was marked as obsolete before NLog 4.3.11 and it may be removed in
-        //     a future release.
-        [Obsolete("Use Trace(Exception exception, string message, params object[] args) method instead. Marked obsolete before v4.3.11")]
-        void Trace([Localizable(false)] string message, Exception exception);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified parameter
-        //     and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        //
-        // Type parameters:
-        //   TArgument:
-        //     The type of the argument.
-        [MessageTemplateFormatMethod("message")]
-        void Trace<TArgument>(IFormatProvider formatProvider, [Localizable(false)] string message, TArgument argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message and exception at the Trace level.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string to be written.
-        //
-        //   exception:
-        //     An exception to be logged.
-        //
-        //   args:
-        //     Arguments to format.
-        [MessageTemplateFormatMethod("message")]
-        void Trace(Exception exception, IFormatProvider formatProvider, [Localizable(false)] string message, params object[] args);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Trace(string message, sbyte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified parameters.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument1:
-        //     The first argument to format.
-        //
-        //   argument2:
-        //     The second argument to format.
-        //
-        // Type parameters:
-        //   TArgument1:
-        //     The type of the first argument.
-        //
-        //   TArgument2:
-        //     The type of the second argument.
-        [MessageTemplateFormatMethod("message")]
-        void Trace<TArgument1, TArgument2>([Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified parameters.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument1:
-        //     The first argument to format.
-        //
-        //   argument2:
-        //     The second argument to format.
-        //
-        //   argument3:
-        //     The third argument to format.
-        //
-        // Type parameters:
-        //   TArgument1:
-        //     The type of the first argument.
-        //
-        //   TArgument2:
-        //     The type of the second argument.
-        //
-        //   TArgument3:
-        //     The type of the third argument.
-        [MessageTemplateFormatMethod("message")]
-        void Trace<TArgument1, TArgument2, TArgument3>([Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Trace(string message, ulong argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Trace(IFormatProvider formatProvider, string message, ulong argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        //
-        // Type parameters:
-        //   TArgument:
-        //     The type of the argument.
-        [MessageTemplateFormatMethod("message")]
-        void Trace<TArgument>([Localizable(false)] string message, TArgument argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Trace(string message, object argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Trace(IFormatProvider formatProvider, string message, sbyte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified arguments
-        //     formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument1:
-        //     The first argument to format.
-        //
-        //   argument2:
-        //     The second argument to format.
-        //
-        //   argument3:
-        //     The third argument to format.
-        //
-        // Type parameters:
-        //   TArgument1:
-        //     The type of the first argument.
-        //
-        //   TArgument2:
-        //     The type of the second argument.
-        //
-        //   TArgument3:
-        //     The type of the third argument.
-        [MessageTemplateFormatMethod("message")]
-        void Trace<TArgument1, TArgument2, TArgument3>(IFormatProvider formatProvider, [Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Trace(IFormatProvider formatProvider, string message, uint argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Trace(string message, uint argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message and exception at the Trace level.
-        //
-        // Parameters:
-        //   message:
-        //     A string to be written.
-        //
-        //   exception:
-        //     An exception to be logged.
-        //
-        // Remarks:
-        //     This method was marked as obsolete before NLog 4.3.11 and it may be removed in
-        //     a future release.
-        [Obsolete("Use Trace(Exception exception, string message, params object[] args) method instead. Marked obsolete before v4.3.11")]
-        void TraceException([Localizable(false)] string message, Exception exception);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Warn(IFormatProvider formatProvider, string message, byte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Warn(IFormatProvider formatProvider, string message, ulong argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Warn(string message, ulong argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Warn(string message, uint argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Warn(IFormatProvider formatProvider, string message, uint argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Warn(string message, sbyte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Warn(IFormatProvider formatProvider, string message, sbyte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Warn(IFormatProvider formatProvider, string message, string argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Warn(string message, string argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Warn(IFormatProvider formatProvider, string message, int argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Warn(string message, int argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Warn(IFormatProvider formatProvider, string message, long argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Warn(string message, long argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Warn(string message, char argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Warn(IFormatProvider formatProvider, string message, float argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Warn(IFormatProvider formatProvider, string message, double argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Warn(string message, double argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Warn(IFormatProvider formatProvider, string message, decimal argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Warn(string message, decimal argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Warn(IFormatProvider formatProvider, string message, object argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Warn(string message, object argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Warn(string message, float argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Warn(IFormatProvider formatProvider, string message, char argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level.
-        //
-        // Parameters:
-        //   value:
-        //     A object to be written.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Warn(object value);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value as
-        //     a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Warn(IFormatProvider formatProvider, string message, bool argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level.
-        //
-        // Parameters:
-        //   value:
-        //     The value to be written.
-        //
-        // Type parameters:
-        //   T:
-        //     Type of the value.
-        void Warn<T>(T value);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   value:
-        //     The value to be written.
-        //
-        // Type parameters:
-        //   T:
-        //     Type of the value.
-        void Warn<T>(IFormatProvider formatProvider, T value);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level.
-        //
-        // Parameters:
-        //   messageFunc:
-        //     A function returning message to be written. Function is not evaluated if logging
-        //     is not enabled.
-        void Warn(LogMessageGenerator messageFunc);
-        //
-        // Summary:
-        //     Writes the diagnostic message and exception at the Warn level.
-        //
-        // Parameters:
-        //   message:
-        //     A string to be written.
-        //
-        //   exception:
-        //     An exception to be logged.
-        void Warn(Exception exception, [Localizable(false)] string message);
-        //
-        // Summary:
-        //     Writes the diagnostic message and exception at the Warn level.
-        //
-        // Parameters:
-        //   message:
-        //     A string to be written.
-        //
-        //   exception:
-        //     An exception to be logged.
-        //
-        //   args:
-        //     Arguments to format.
-        [MessageTemplateFormatMethod("message")]
-        void Warn(Exception exception, [Localizable(false)] string message, params object[] args);
-        //
-        // Summary:
-        //     Writes the diagnostic message and exception at the Warn level.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string to be written.
-        //
-        //   exception:
-        //     An exception to be logged.
-        //
-        //   args:
-        //     Arguments to format.
-        [MessageTemplateFormatMethod("message")]
-        void Warn(Exception exception, IFormatProvider formatProvider, [Localizable(false)] string message, params object[] args);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified parameters
-        //     and formatting them with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing format items.
-        //
-        //   args:
-        //     Arguments to format.
-        [MessageTemplateFormatMethod("message")]
-        void Warn(IFormatProvider formatProvider, [Localizable(false)] string message, params object[] args);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level.
-        //
-        // Parameters:
-        //   message:
-        //     Log message.
-        void Warn([Localizable(false)] string message);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Warn(string message, bool argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified parameters.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing format items.
-        //
-        //   args:
-        //     Arguments to format.
-        [MessageTemplateFormatMethod("message")]
-        void Warn([Localizable(false)] string message, params object[] args);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified parameter
-        //     and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        //
-        // Type parameters:
-        //   TArgument:
-        //     The type of the argument.
-        [MessageTemplateFormatMethod("message")]
-        void Warn<TArgument>(IFormatProvider formatProvider, [Localizable(false)] string message, TArgument argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        //
-        // Type parameters:
-        //   TArgument:
-        //     The type of the argument.
-        [MessageTemplateFormatMethod("message")]
-        void Warn<TArgument>([Localizable(false)] string message, TArgument argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified arguments
-        //     formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument1:
-        //     The first argument to format.
-        //
-        //   argument2:
-        //     The second argument to format.
-        //
-        // Type parameters:
-        //   TArgument1:
-        //     The type of the first argument.
-        //
-        //   TArgument2:
-        //     The type of the second argument.
-        [MessageTemplateFormatMethod("message")]
-        void Warn<TArgument1, TArgument2>(IFormatProvider formatProvider, [Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified parameters.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument1:
-        //     The first argument to format.
-        //
-        //   argument2:
-        //     The second argument to format.
-        //
-        // Type parameters:
-        //   TArgument1:
-        //     The type of the first argument.
-        //
-        //   TArgument2:
-        //     The type of the second argument.
-        [MessageTemplateFormatMethod("message")]
-        void Warn<TArgument1, TArgument2>([Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified arguments
-        //     formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument1:
-        //     The first argument to format.
-        //
-        //   argument2:
-        //     The second argument to format.
-        //
-        //   argument3:
-        //     The third argument to format.
-        //
-        // Type parameters:
-        //   TArgument1:
-        //     The type of the first argument.
-        //
-        //   TArgument2:
-        //     The type of the second argument.
-        //
-        //   TArgument3:
-        //     The type of the third argument.
-        [MessageTemplateFormatMethod("message")]
-        void Warn<TArgument1, TArgument2, TArgument3>(IFormatProvider formatProvider, [Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified parameters.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument1:
-        //     The first argument to format.
-        //
-        //   argument2:
-        //     The second argument to format.
-        //
-        //   argument3:
-        //     The third argument to format.
-        //
-        // Type parameters:
-        //   TArgument1:
-        //     The type of the first argument.
-        //
-        //   TArgument2:
-        //     The type of the second argument.
-        //
-        //   TArgument3:
-        //     The type of the third argument.
-        [MessageTemplateFormatMethod("message")]
-        void Warn<TArgument1, TArgument2, TArgument3>([Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   value:
-        //     A object to be written.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Warn(IFormatProvider formatProvider, object value);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified parameters.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing format items.
-        //
-        //   arg1:
-        //     First argument to format.
-        //
-        //   arg2:
-        //     Second argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Warn(string message, object arg1, object arg2);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified parameters.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing format items.
-        //
-        //   arg1:
-        //     First argument to format.
-        //
-        //   arg2:
-        //     Second argument to format.
-        //
-        //   arg3:
-        //     Third argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Warn(string message, object arg1, object arg2, object arg3);
-        //
-        // Summary:
-        //     Writes the diagnostic message and exception at the Warn level.
-        //
-        // Parameters:
-        //   message:
-        //     A string to be written.
-        //
-        //   exception:
-        //     An exception to be logged.
-        //
-        // Remarks:
-        //     This method was marked as obsolete before NLog 4.3.11 and it may be removed in
-        //     a future release.
-        [Obsolete("Use Warn(Exception exception, string message, params object[] args) method instead. Marked obsolete before v4.3.11")]
-        void Warn([Localizable(false)] string message, Exception exception);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value as
-        //     a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        [MessageTemplateFormatMethod("message")]
-        void Warn(string message, byte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message and exception at the Warn level.
-        //
-        // Parameters:
-        //   message:
-        //     A string to be written.
-        //
-        //   exception:
-        //     An exception to be logged.
-        //
-        // Remarks:
-        //     This method was marked as obsolete before NLog 4.3.11 and it may be removed in
-        //     a future release.
-        [Obsolete("Use Warn(Exception exception, string message, params object[] args) method instead. Marked obsolete before v4.3.11")]
-        void WarnException([Localizable(false)] string message, Exception exception);
+        /// <summary>
+        /// Writes the diagnostic message at the Error level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+        /// <param name="message">A string containing one format item.</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Error(IFormatProvider formatProvider, string message)
+        {
+            if (logger.IsErrorEnabled)
+                logger.Error(formatProvider, message);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Error level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="message">A string containing one format item.</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Error(string message)
+        {
+            if (logger.IsErrorEnabled)
+                logger.Error(message);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Error level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument">The argument to format.</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Error<TArgument>(IFormatProvider formatProvider, string message, TArgument argument)
+        {
+            if (!logger.IsErrorEnabled)
+                return;
+
+            switch (argument)
+            {
+                case decimal argOfType:
+                    logger.Error(formatProvider, message, argOfType);
+                    break;
+                case double argOfType:
+                    logger.Error(formatProvider, message, argOfType);
+                    break;
+                case float argOfType:
+                    logger.Error(formatProvider, message, argOfType);
+                    break;
+                case long argOfType:
+                    logger.Error(formatProvider, message, argOfType);
+                    break;
+                case int argOfType:
+                    logger.Error(formatProvider, message, argOfType);
+                    break;
+                case string argOfType:
+                    logger.Error(formatProvider, message, argOfType);
+                    break;
+                case byte argOfType:
+                    logger.Error(formatProvider, message, argOfType);
+                    break;
+                case sbyte argOfType:
+                    logger.Error(formatProvider, message, argOfType);
+                    break;
+                case char argOfType:
+                    logger.Error(formatProvider, message, argOfType);
+                    break;
+                case uint argOfType:
+                    logger.Error(formatProvider, message, argOfType);
+                    break;
+                case ulong argOfType:
+                    logger.Error(formatProvider, message, argOfType);
+                    break;
+
+                default:
+                    logger.Error(formatProvider, message, argument);
+                    break;
+            }
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Error level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="args">Arguments to format..</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Error([Localizable(false)] string message, params object[] args)
+        {
+            if (!logger.IsErrorEnabled)
+                return;
+
+            logger.Error(message, args);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Error level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="args">Arguments to format..</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Error(IFormatProvider formatProvider, [Localizable(false)] string message, params object[] args)
+        {
+            if (!logger.IsErrorEnabled)
+                return;
+
+            logger.Error(formatProvider, message, args);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Error level.
+        /// </summary>
+        /// <param name="messageFunc">A function returning message to be written.</param>
+        /// <remarks>Function is not evaluated if logging is not enabled.</remarks>
+        public void Error(LogMessageGenerator messageFunc)
+        {
+            logger.Error(messageFunc);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Error level using the specified parameters.
+        /// </summary>
+        /// <typeparam name="TArgument1">The type of the first argument.</typeparam>
+        /// <typeparam name="TArgument2">The type of the second argument.</typeparam>
+        /// <typeparam name="TArgument3">The type of the second argument.</typeparam>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument1">The first argument to format.</param>
+        /// <param name="argument2">The second argument to format.</param>
+        /// <param name="argument3">The third argument to format.</param>
+        [MessageTemplateFormatMethod("message")]
+        public void Error<TArgument1, TArgument2, TArgument3>([Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3)
+        {
+            if (logger.IsErrorEnabled)
+                logger.Error(message, argument1, argument2, argument3);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Error level using the specified parameters.
+        /// </summary>
+        /// <typeparam name="TArgument1">The type of the first argument.</typeparam>
+        /// <typeparam name="TArgument2">The type of the second argument.</typeparam>
+        /// <typeparam name="TArgument3">The type of the second argument.</typeparam>
+        /// <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument1">The first argument to format.</param>
+        /// <param name="argument2">The second argument to format.</param>
+        /// <param name="argument3">The third argument to format.</param>
+        [MessageTemplateFormatMethod("message")]
+        public void Error<TArgument1, TArgument2, TArgument3>(IFormatProvider formatProvider, [Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3)
+        {
+            if (logger.IsErrorEnabled)
+                logger.Error(message, argument1, argument2, argument3);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Error level using the specified parameters.
+        /// </summary>
+        /// <typeparam name="TArgument1">The type of the first argument.</typeparam>
+        /// <typeparam name="TArgument2">The type of the second argument.</typeparam>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument1">The first argument to format.</param>
+        /// <param name="argument2">The second argument to format.</param>
+        [MessageTemplateFormatMethod("message")]
+        public void Error<TArgument1, TArgument2>([Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2)
+        {
+            if (logger.IsErrorEnabled)
+                logger.Error(message, argument1, argument2);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Error level using the specified parameters.
+        /// </summary>
+        /// <typeparam name="TArgument1">The type of the first argument.</typeparam>
+        /// <typeparam name="TArgument2">The type of the second argument.</typeparam>
+        /// <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument1">The first argument to format.</param>
+        /// <param name="argument2">The second argument to format.</param>
+        [MessageTemplateFormatMethod("message")]
+        public void Error<TArgument1, TArgument2>(IFormatProvider formatProvider, [Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2)
+        {
+            if (logger.IsErrorEnabled)
+                logger.Error(message, argument1, argument2);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Fatal level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument">The argument to format.</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Fatal<TArgument>(string message, TArgument argument)
+        {
+            if (!logger.IsFatalEnabled)
+                return;
+
+            switch (argument)
+            {
+                case decimal argOfType:
+                    logger.Fatal(message, argOfType);
+                    break;
+                case double argOfType:
+                    logger.Fatal(message, argOfType);
+                    break;
+                case float argOfType:
+                    logger.Fatal(message, argOfType);
+                    break;
+                case long argOfType:
+                    logger.Fatal(message, argOfType);
+                    break;
+                case int argOfType:
+                    logger.Fatal(message, argOfType);
+                    break;
+                case string argOfType:
+                    logger.Fatal(message, argOfType);
+                    break;
+                case byte argOfType:
+                    logger.Fatal(message, argOfType);
+                    break;
+                case sbyte argOfType:
+                    logger.Fatal(message, argOfType);
+                    break;
+                case char argOfType:
+                    logger.Fatal(message, argOfType);
+                    break;
+                case uint argOfType:
+                    logger.Fatal(message, argOfType);
+                    break;
+                case ulong argOfType:
+                    logger.Fatal(message, argOfType);
+                    break;
+
+                default:
+                    logger.Fatal(message, argument);
+                    break;
+            }
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Fatal level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+        /// <param name="message">A string containing one format item.</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Fatal(IFormatProvider formatProvider, string message)
+        {
+            if (logger.IsFatalEnabled)
+                logger.Fatal(formatProvider, message);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Fatal level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="message">A string containing one format item.</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Fatal(string message)
+        {
+            if (logger.IsFatalEnabled)
+                logger.Fatal(message);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Fatal level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument">The argument to format.</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Fatal<TArgument>(IFormatProvider formatProvider, string message, TArgument argument)
+        {
+            if (!logger.IsFatalEnabled)
+                return;
+
+            switch (argument)
+            {
+                case decimal argOfType:
+                    logger.Fatal(formatProvider, message, argOfType);
+                    break;
+                case double argOfType:
+                    logger.Fatal(formatProvider, message, argOfType);
+                    break;
+                case float argOfType:
+                    logger.Fatal(formatProvider, message, argOfType);
+                    break;
+                case long argOfType:
+                    logger.Fatal(formatProvider, message, argOfType);
+                    break;
+                case int argOfType:
+                    logger.Fatal(formatProvider, message, argOfType);
+                    break;
+                case string argOfType:
+                    logger.Fatal(formatProvider, message, argOfType);
+                    break;
+                case byte argOfType:
+                    logger.Fatal(formatProvider, message, argOfType);
+                    break;
+                case sbyte argOfType:
+                    logger.Fatal(formatProvider, message, argOfType);
+                    break;
+                case char argOfType:
+                    logger.Fatal(formatProvider, message, argOfType);
+                    break;
+                case uint argOfType:
+                    logger.Fatal(formatProvider, message, argOfType);
+                    break;
+                case ulong argOfType:
+                    logger.Fatal(formatProvider, message, argOfType);
+                    break;
+
+                default:
+                    logger.Fatal(formatProvider, message, argument);
+                    break;
+            }
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Fatal level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="args">Arguments to format..</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Fatal([Localizable(false)] string message, params object[] args)
+        {
+            if (!logger.IsFatalEnabled)
+                return;
+
+            logger.Fatal(message, args);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Fatal level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="args">Arguments to format..</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Fatal(IFormatProvider formatProvider, [Localizable(false)] string message, params object[] args)
+        {
+            if (!logger.IsFatalEnabled)
+                return;
+
+            logger.Fatal(formatProvider, message, args);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Fatal level.
+        /// </summary>
+        /// <param name="messageFunc">A function returning message to be written.</param>
+        /// <remarks>Function is not evaluated if logging is not enabled.</remarks>
+        public void Fatal(LogMessageGenerator messageFunc)
+        {
+            logger.Fatal(messageFunc);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Fatal level using the specified parameters.
+        /// </summary>
+        /// <typeparam name="TArgument1">The type of the first argument.</typeparam>
+        /// <typeparam name="TArgument2">The type of the second argument.</typeparam>
+        /// <typeparam name="TArgument3">The type of the second argument.</typeparam>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument1">The first argument to format.</param>
+        /// <param name="argument2">The second argument to format.</param>
+        /// <param name="argument3">The third argument to format.</param>
+        [MessageTemplateFormatMethod("message")]
+        public void Fatal<TArgument1, TArgument2, TArgument3>([Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3)
+        {
+            if (logger.IsFatalEnabled)
+                logger.Fatal(message, argument1, argument2, argument3);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Fatal level using the specified parameters.
+        /// </summary>
+        /// <typeparam name="TArgument1">The type of the first argument.</typeparam>
+        /// <typeparam name="TArgument2">The type of the second argument.</typeparam>
+        /// <typeparam name="TArgument3">The type of the second argument.</typeparam>
+        /// <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument1">The first argument to format.</param>
+        /// <param name="argument2">The second argument to format.</param>
+        /// <param name="argument3">The third argument to format.</param>
+        [MessageTemplateFormatMethod("message")]
+        public void Fatal<TArgument1, TArgument2, TArgument3>(IFormatProvider formatProvider, [Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3)
+        {
+            if (logger.IsFatalEnabled)
+                logger.Fatal(message, argument1, argument2, argument3);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Fatal level using the specified parameters.
+        /// </summary>
+        /// <typeparam name="TArgument1">The type of the first argument.</typeparam>
+        /// <typeparam name="TArgument2">The type of the second argument.</typeparam>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument1">The first argument to format.</param>
+        /// <param name="argument2">The second argument to format.</param>
+        [MessageTemplateFormatMethod("message")]
+        public void Fatal<TArgument1, TArgument2>([Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2)
+        {
+            if (logger.IsFatalEnabled)
+                logger.Fatal(message, argument1, argument2);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Fatal level using the specified parameters.
+        /// </summary>
+        /// <typeparam name="TArgument1">The type of the first argument.</typeparam>
+        /// <typeparam name="TArgument2">The type of the second argument.</typeparam>
+        /// <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument1">The first argument to format.</param>
+        /// <param name="argument2">The second argument to format.</param>
+        [MessageTemplateFormatMethod("message")]
+        public void Fatal<TArgument1, TArgument2>(IFormatProvider formatProvider, [Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2)
+        {
+            if (logger.IsFatalEnabled)
+                logger.Fatal(message, argument1, argument2);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Info level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument">The argument to format.</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Info<TArgument>(string message, TArgument argument)
+        {
+            if (!logger.IsInfoEnabled)
+                return;
+
+            switch (argument)
+            {
+                case decimal argOfType:
+                    logger.Info(message, argOfType);
+                    break;
+                case double argOfType:
+                    logger.Info(message, argOfType);
+                    break;
+                case float argOfType:
+                    logger.Info(message, argOfType);
+                    break;
+                case long argOfType:
+                    logger.Info(message, argOfType);
+                    break;
+                case int argOfType:
+                    logger.Info(message, argOfType);
+                    break;
+                case string argOfType:
+                    logger.Info(message, argOfType);
+                    break;
+                case byte argOfType:
+                    logger.Info(message, argOfType);
+                    break;
+                case sbyte argOfType:
+                    logger.Info(message, argOfType);
+                    break;
+                case char argOfType:
+                    logger.Info(message, argOfType);
+                    break;
+                case uint argOfType:
+                    logger.Info(message, argOfType);
+                    break;
+                case ulong argOfType:
+                    logger.Info(message, argOfType);
+                    break;
+
+                default:
+                    logger.Info(message, argument);
+                    break;
+            }
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Info level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+        /// <param name="message">A string containing one format item.</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Info(IFormatProvider formatProvider, string message)
+        {
+            if (logger.IsInfoEnabled)
+                logger.Info(formatProvider, message);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Info level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="message">A string containing one format item.</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Info(string message)
+        {
+            if (logger.IsInfoEnabled)
+                logger.Info(message);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Info level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument">The argument to format.</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Info<TArgument>(IFormatProvider formatProvider, string message, TArgument argument)
+        {
+            if (!logger.IsInfoEnabled)
+                return;
+
+            switch (argument)
+            {
+                case decimal argOfType:
+                    logger.Info(formatProvider, message, argOfType);
+                    break;
+                case double argOfType:
+                    logger.Info(formatProvider, message, argOfType);
+                    break;
+                case float argOfType:
+                    logger.Info(formatProvider, message, argOfType);
+                    break;
+                case long argOfType:
+                    logger.Info(formatProvider, message, argOfType);
+                    break;
+                case int argOfType:
+                    logger.Info(formatProvider, message, argOfType);
+                    break;
+                case string argOfType:
+                    logger.Info(formatProvider, message, argOfType);
+                    break;
+                case byte argOfType:
+                    logger.Info(formatProvider, message, argOfType);
+                    break;
+                case sbyte argOfType:
+                    logger.Info(formatProvider, message, argOfType);
+                    break;
+                case char argOfType:
+                    logger.Info(formatProvider, message, argOfType);
+                    break;
+                case uint argOfType:
+                    logger.Info(formatProvider, message, argOfType);
+                    break;
+                case ulong argOfType:
+                    logger.Info(formatProvider, message, argOfType);
+                    break;
+
+                default:
+                    logger.Info(formatProvider, message, argument);
+                    break;
+            }
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Info level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="args">Arguments to format..</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Info([Localizable(false)] string message, params object[] args)
+        {
+            if (!logger.IsInfoEnabled)
+                return;
+
+            logger.Info(message, args);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Info level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="args">Arguments to format..</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Info(IFormatProvider formatProvider, [Localizable(false)] string message, params object[] args)
+        {
+            if (!logger.IsInfoEnabled)
+                return;
+
+            logger.Info(formatProvider, message, args);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Info level.
+        /// </summary>
+        /// <param name="messageFunc">A function returning message to be written.</param>
+        /// <remarks>Function is not evaluated if logging is not enabled.</remarks>
+        public void Info(LogMessageGenerator messageFunc)
+        {
+            logger.Info(messageFunc);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Info level using the specified parameters.
+        /// </summary>
+        /// <typeparam name="TArgument1">The type of the first argument.</typeparam>
+        /// <typeparam name="TArgument2">The type of the second argument.</typeparam>
+        /// <typeparam name="TArgument3">The type of the second argument.</typeparam>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument1">The first argument to format.</param>
+        /// <param name="argument2">The second argument to format.</param>
+        /// <param name="argument3">The third argument to format.</param>
+        [MessageTemplateFormatMethod("message")]
+        public void Info<TArgument1, TArgument2, TArgument3>([Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3)
+        {
+            if (logger.IsInfoEnabled)
+                logger.Info(message, argument1, argument2, argument3);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Info level using the specified parameters.
+        /// </summary>
+        /// <typeparam name="TArgument1">The type of the first argument.</typeparam>
+        /// <typeparam name="TArgument2">The type of the second argument.</typeparam>
+        /// <typeparam name="TArgument3">The type of the second argument.</typeparam>
+        /// <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument1">The first argument to format.</param>
+        /// <param name="argument2">The second argument to format.</param>
+        /// <param name="argument3">The third argument to format.</param>
+        [MessageTemplateFormatMethod("message")]
+        public void Info<TArgument1, TArgument2, TArgument3>(IFormatProvider formatProvider, [Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3)
+        {
+            if (logger.IsInfoEnabled)
+                logger.Info(message, argument1, argument2, argument3);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Info level using the specified parameters.
+        /// </summary>
+        /// <typeparam name="TArgument1">The type of the first argument.</typeparam>
+        /// <typeparam name="TArgument2">The type of the second argument.</typeparam>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument1">The first argument to format.</param>
+        /// <param name="argument2">The second argument to format.</param>
+        [MessageTemplateFormatMethod("message")]
+        public void Info<TArgument1, TArgument2>([Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2)
+        {
+            if (logger.IsInfoEnabled)
+                logger.Info(message, argument1, argument2);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Info level using the specified parameters.
+        /// </summary>
+        /// <typeparam name="TArgument1">The type of the first argument.</typeparam>
+        /// <typeparam name="TArgument2">The type of the second argument.</typeparam>
+        /// <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument1">The first argument to format.</param>
+        /// <param name="argument2">The second argument to format.</param>
+        [MessageTemplateFormatMethod("message")]
+        public void Info<TArgument1, TArgument2>(IFormatProvider formatProvider, [Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2)
+        {
+            if (logger.IsInfoEnabled)
+                logger.Info(message, argument1, argument2);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Trace level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument">The argument to format.</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Trace<TArgument>(string message, TArgument argument)
+        {
+            if (!logger.IsTraceEnabled)
+                return;
+
+            switch (argument)
+            {
+                case decimal argOfType:
+                    logger.Trace(message, argOfType);
+                    break;
+                case double argOfType:
+                    logger.Trace(message, argOfType);
+                    break;
+                case float argOfType:
+                    logger.Trace(message, argOfType);
+                    break;
+                case long argOfType:
+                    logger.Trace(message, argOfType);
+                    break;
+                case int argOfType:
+                    logger.Trace(message, argOfType);
+                    break;
+                case string argOfType:
+                    logger.Trace(message, argOfType);
+                    break;
+                case byte argOfType:
+                    logger.Trace(message, argOfType);
+                    break;
+                case sbyte argOfType:
+                    logger.Trace(message, argOfType);
+                    break;
+                case char argOfType:
+                    logger.Trace(message, argOfType);
+                    break;
+                case uint argOfType:
+                    logger.Trace(message, argOfType);
+                    break;
+                case ulong argOfType:
+                    logger.Trace(message, argOfType);
+                    break;
+
+                default:
+                    logger.Trace(message, argument);
+                    break;
+            }
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Trace level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+        /// <param name="message">A string containing one format item.</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Trace(IFormatProvider formatProvider, string message)
+        {
+            if (logger.IsTraceEnabled)
+                logger.Trace(formatProvider, message);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Trace level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="message">A string containing one format item.</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Trace(string message)
+        {
+            if (logger.IsTraceEnabled)
+                logger.Trace(message);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Trace level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument">The argument to format.</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Trace<TArgument>(IFormatProvider formatProvider, string message, TArgument argument)
+        {
+            if (!logger.IsTraceEnabled)
+                return;
+
+            switch (argument)
+            {
+                case decimal argOfType:
+                    logger.Trace(formatProvider, message, argOfType);
+                    break;
+                case double argOfType:
+                    logger.Trace(formatProvider, message, argOfType);
+                    break;
+                case float argOfType:
+                    logger.Trace(formatProvider, message, argOfType);
+                    break;
+                case long argOfType:
+                    logger.Trace(formatProvider, message, argOfType);
+                    break;
+                case int argOfType:
+                    logger.Trace(formatProvider, message, argOfType);
+                    break;
+                case string argOfType:
+                    logger.Trace(formatProvider, message, argOfType);
+                    break;
+                case byte argOfType:
+                    logger.Trace(formatProvider, message, argOfType);
+                    break;
+                case sbyte argOfType:
+                    logger.Trace(formatProvider, message, argOfType);
+                    break;
+                case char argOfType:
+                    logger.Trace(formatProvider, message, argOfType);
+                    break;
+                case uint argOfType:
+                    logger.Trace(formatProvider, message, argOfType);
+                    break;
+                case ulong argOfType:
+                    logger.Trace(formatProvider, message, argOfType);
+                    break;
+
+                default:
+                    logger.Trace(formatProvider, message, argument);
+                    break;
+            }
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Trace level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="args">Arguments to format..</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Trace([Localizable(false)] string message, params object[] args)
+        {
+            if (!logger.IsTraceEnabled)
+                return;
+
+            logger.Trace(message, args);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Trace level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="args">Arguments to format..</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Trace(IFormatProvider formatProvider, [Localizable(false)] string message, params object[] args)
+        {
+            if (!logger.IsTraceEnabled)
+                return;
+
+            logger.Trace(formatProvider, message, args);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Trace level.
+        /// </summary>
+        /// <param name="messageFunc">A function returning message to be written.</param>
+        /// <remarks>Function is not evaluated if logging is not enabled.</remarks>
+        public void Trace(LogMessageGenerator messageFunc)
+        {
+            logger.Trace(messageFunc);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Trace level using the specified parameters.
+        /// </summary>
+        /// <typeparam name="TArgument1">The type of the first argument.</typeparam>
+        /// <typeparam name="TArgument2">The type of the second argument.</typeparam>
+        /// <typeparam name="TArgument3">The type of the second argument.</typeparam>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument1">The first argument to format.</param>
+        /// <param name="argument2">The second argument to format.</param>
+        /// <param name="argument3">The third argument to format.</param>
+        [MessageTemplateFormatMethod("message")]
+        public void Trace<TArgument1, TArgument2, TArgument3>([Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3)
+        {
+            if (logger.IsTraceEnabled)
+                logger.Trace(message, argument1, argument2, argument3);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Trace level using the specified parameters.
+        /// </summary>
+        /// <typeparam name="TArgument1">The type of the first argument.</typeparam>
+        /// <typeparam name="TArgument2">The type of the second argument.</typeparam>
+        /// <typeparam name="TArgument3">The type of the second argument.</typeparam>
+        /// <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument1">The first argument to format.</param>
+        /// <param name="argument2">The second argument to format.</param>
+        /// <param name="argument3">The third argument to format.</param>
+        [MessageTemplateFormatMethod("message")]
+        public void Trace<TArgument1, TArgument2, TArgument3>(IFormatProvider formatProvider, [Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3)
+        {
+            if (logger.IsTraceEnabled)
+                logger.Trace(message, argument1, argument2, argument3);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Trace level using the specified parameters.
+        /// </summary>
+        /// <typeparam name="TArgument1">The type of the first argument.</typeparam>
+        /// <typeparam name="TArgument2">The type of the second argument.</typeparam>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument1">The first argument to format.</param>
+        /// <param name="argument2">The second argument to format.</param>
+        [MessageTemplateFormatMethod("message")]
+        public void Trace<TArgument1, TArgument2>([Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2)
+        {
+            if (logger.IsTraceEnabled)
+                logger.Trace(message, argument1, argument2);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Trace level using the specified parameters.
+        /// </summary>
+        /// <typeparam name="TArgument1">The type of the first argument.</typeparam>
+        /// <typeparam name="TArgument2">The type of the second argument.</typeparam>
+        /// <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument1">The first argument to format.</param>
+        /// <param name="argument2">The second argument to format.</param>
+        [MessageTemplateFormatMethod("message")]
+        public void Trace<TArgument1, TArgument2>(IFormatProvider formatProvider, [Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2)
+        {
+            if (logger.IsTraceEnabled)
+                logger.Trace(message, argument1, argument2);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Warn level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument">The argument to format.</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Warn<TArgument>(string message, TArgument argument)
+        {
+            if (!logger.IsWarnEnabled)
+                return;
+
+            switch (argument)
+            {
+                case decimal argOfType:
+                    logger.Warn(message, argOfType);
+                    break;
+                case double argOfType:
+                    logger.Warn(message, argOfType);
+                    break;
+                case float argOfType:
+                    logger.Warn(message, argOfType);
+                    break;
+                case long argOfType:
+                    logger.Warn(message, argOfType);
+                    break;
+                case int argOfType:
+                    logger.Warn(message, argOfType);
+                    break;
+                case string argOfType:
+                    logger.Warn(message, argOfType);
+                    break;
+                case byte argOfType:
+                    logger.Warn(message, argOfType);
+                    break;
+                case sbyte argOfType:
+                    logger.Warn(message, argOfType);
+                    break;
+                case char argOfType:
+                    logger.Warn(message, argOfType);
+                    break;
+                case uint argOfType:
+                    logger.Warn(message, argOfType);
+                    break;
+                case ulong argOfType:
+                    logger.Warn(message, argOfType);
+                    break;
+
+                default:
+                    logger.Warn(message, argument);
+                    break;
+            }
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Warn level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+        /// <param name="message">A string containing one format item.</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Warn(IFormatProvider formatProvider, string message)
+        {
+            if (logger.IsWarnEnabled)
+                logger.Warn(formatProvider, message);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Warn level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="message">A string containing one format item.</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Warn(string message)
+        {
+            if (logger.IsWarnEnabled)
+                logger.Warn(message);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Warn level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument">The argument to format.</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Warn<TArgument>(IFormatProvider formatProvider, string message, TArgument argument)
+        {
+            if (!logger.IsWarnEnabled)
+                return;
+
+            switch (argument)
+            {
+                case decimal argOfType:
+                    logger.Warn(formatProvider, message, argOfType);
+                    break;
+                case double argOfType:
+                    logger.Warn(formatProvider, message, argOfType);
+                    break;
+                case float argOfType:
+                    logger.Warn(formatProvider, message, argOfType);
+                    break;
+                case long argOfType:
+                    logger.Warn(formatProvider, message, argOfType);
+                    break;
+                case int argOfType:
+                    logger.Warn(formatProvider, message, argOfType);
+                    break;
+                case string argOfType:
+                    logger.Warn(formatProvider, message, argOfType);
+                    break;
+                case byte argOfType:
+                    logger.Warn(formatProvider, message, argOfType);
+                    break;
+                case sbyte argOfType:
+                    logger.Warn(formatProvider, message, argOfType);
+                    break;
+                case char argOfType:
+                    logger.Warn(formatProvider, message, argOfType);
+                    break;
+                case uint argOfType:
+                    logger.Warn(formatProvider, message, argOfType);
+                    break;
+                case ulong argOfType:
+                    logger.Warn(formatProvider, message, argOfType);
+                    break;
+
+                default:
+                    logger.Warn(formatProvider, message, argument);
+                    break;
+            }
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Warn level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="args">Arguments to format..</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Warn([Localizable(false)] string message, params object[] args)
+        {
+            if (!logger.IsWarnEnabled)
+                return;
+
+            logger.Warn(message, args);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Warn level using the specified value as
+        /// a parameter and formatting it with the supplied format provider.
+        /// </summary>
+        /// <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="args">Arguments to format..</param>
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [MessageTemplateFormatMethod("message")]
+        public void Warn(IFormatProvider formatProvider, [Localizable(false)] string message, params object[] args)
+        {
+            if (!logger.IsWarnEnabled)
+                return;
+
+            logger.Warn(formatProvider, message, args);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Warn level.
+        /// </summary>
+        /// <param name="messageFunc">A function returning message to be written.</param>
+        /// <remarks>Function is not evaluated if logging is not enabled.</remarks>
+        public void Warn(LogMessageGenerator messageFunc)
+        {
+            logger.Warn(messageFunc);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Warn level using the specified parameters.
+        /// </summary>
+        /// <typeparam name="TArgument1">The type of the first argument.</typeparam>
+        /// <typeparam name="TArgument2">The type of the second argument.</typeparam>
+        /// <typeparam name="TArgument3">The type of the second argument.</typeparam>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument1">The first argument to format.</param>
+        /// <param name="argument2">The second argument to format.</param>
+        /// <param name="argument3">The third argument to format.</param>
+        [MessageTemplateFormatMethod("message")]
+        public void Warn<TArgument1, TArgument2, TArgument3>([Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3)
+        {
+            if (logger.IsWarnEnabled)
+                logger.Warn(message, argument1, argument2, argument3);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Warn level using the specified parameters.
+        /// </summary>
+        /// <typeparam name="TArgument1">The type of the first argument.</typeparam>
+        /// <typeparam name="TArgument2">The type of the second argument.</typeparam>
+        /// <typeparam name="TArgument3">The type of the second argument.</typeparam>
+        /// <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument1">The first argument to format.</param>
+        /// <param name="argument2">The second argument to format.</param>
+        /// <param name="argument3">The third argument to format.</param>
+        [MessageTemplateFormatMethod("message")]
+        public void Warn<TArgument1, TArgument2, TArgument3>(IFormatProvider formatProvider, [Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3)
+        {
+            if (logger.IsWarnEnabled)
+                logger.Warn(message, argument1, argument2, argument3);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Warn level using the specified parameters.
+        /// </summary>
+        /// <typeparam name="TArgument1">The type of the first argument.</typeparam>
+        /// <typeparam name="TArgument2">The type of the second argument.</typeparam>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument1">The first argument to format.</param>
+        /// <param name="argument2">The second argument to format.</param>
+        [MessageTemplateFormatMethod("message")]
+        public void Warn<TArgument1, TArgument2>([Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2)
+        {
+            if (logger.IsWarnEnabled)
+                logger.Warn(message, argument1, argument2);
+        }
+
+        /// <summary>
+        /// Writes the diagnostic message at the Warn level using the specified parameters.
+        /// </summary>
+        /// <typeparam name="TArgument1">The type of the first argument.</typeparam>
+        /// <typeparam name="TArgument2">The type of the second argument.</typeparam>
+        /// <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+        /// <param name="message">A string containing one format item.</param>
+        /// <param name="argument1">The first argument to format.</param>
+        /// <param name="argument2">The second argument to format.</param>
+        [MessageTemplateFormatMethod("message")]
+        public void Warn<TArgument1, TArgument2>(IFormatProvider formatProvider, [Localizable(false)] string message, TArgument1 argument1, TArgument2 argument2)
+        {
+            if (logger.IsWarnEnabled)
+                logger.Warn(message, argument1, argument2);
+        }
     }
 }

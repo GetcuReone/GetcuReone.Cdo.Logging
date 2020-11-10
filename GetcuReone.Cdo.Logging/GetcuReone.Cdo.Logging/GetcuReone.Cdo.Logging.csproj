@@ -9,7 +9,7 @@
         <PackageId>GetcuReone.Cdo.Logging</PackageId>
         <Product>GetcuReone.Cdo.Logging</Product>
         <Description>A project that implements the integration of logging.</Description>
-        <RepositoryUrl>https://github.com/GetcuReone/GetcuReone.Cdm</RepositoryUrl>
+        <RepositoryUrl>https://github.com/GetcuReone/GetcuReone.Cdo.Logging</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageTags>getcureone cdo logging</PackageTags>
         <PackageReleaseNotes>
@@ -17,7 +17,7 @@
             - publish to GitHub.
         </PackageReleaseNotes>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-        <PackageProjectUrl>https://github.com/GetcuReone/GetcuReone.Cdm</PackageProjectUrl>
+        <PackageProjectUrl>https://github.com/GetcuReone/GetcuReone.Cdo.Logging</PackageProjectUrl>
         <Copyright>Copyright © 2020 $(Authors)</Copyright>
         <NeutralLanguage>en-US</NeutralLanguage>
         <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
