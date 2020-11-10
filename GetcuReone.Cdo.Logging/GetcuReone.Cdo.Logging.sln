@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetcuReone.Cdo.Logging", "GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging.csproj", "{D46421DF-282D-4C3F-90A1-ABFE06B46CBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetcuReone.Cdo.Logging", "GetcuReone.Cdo.Logging\GetcuReone.Cdo.Logging.csproj", "{D46421DF-282D-4C3F-90A1-ABFE06B46CBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{B287643F-D8B8-4F40-94E6-387DB7CBE51E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfrastructureTests", "Infrastructure\InfrastructureTests\InfrastructureTests.csproj", "{9912EDB5-89A6-41FE-9498-79683CF3E3E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{D46421DF-282D-4C3F-90A1-ABFE06B46CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D46421DF-282D-4C3F-90A1-ABFE06B46CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D46421DF-282D-4C3F-90A1-ABFE06B46CBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9912EDB5-89A6-41FE-9498-79683CF3E3E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9912EDB5-89A6-41FE-9498-79683CF3E3E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9912EDB5-89A6-41FE-9498-79683CF3E3E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9912EDB5-89A6-41FE-9498-79683CF3E3E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9912EDB5-89A6-41FE-9498-79683CF3E3E0} = {B287643F-D8B8-4F40-94E6-387DB7CBE51E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3690442A-C6FA-4A74-AD1D-C90D6A79FCB0}
