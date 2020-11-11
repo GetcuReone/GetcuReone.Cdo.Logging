@@ -62,6 +62,7 @@ namespace InfrastructureTests
             string beginNamespace = "GetcuReone";
             string[] excludeAssemblies = new string[]
             {
+                "GetcuReone.Cdo.Logging.TestCommon",
             };
 
             CheckBeginNamespacesInLibrary(_solutionFolder, _projectName, beginNamespace, excludeAssemblies);
