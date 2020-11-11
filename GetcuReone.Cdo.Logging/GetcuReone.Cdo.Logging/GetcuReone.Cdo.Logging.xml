@@ -1,0 +1,627 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GetcuReone.Cdo.Logging</name>
+    </assembly>
+    <members>
+        <member name="T:GetcuReone.Cdo.Logging.NLogAdapter">
+            <summary>
+            Adapter for NLog.
+            </summary>
+        </member>
+        <member name="F:GetcuReone.Cdo.Logging.NLogAdapter.AppLoggerNameKey">
+            <summary>
+            Name of the setting key in the configuration file that stores the name of the logger.
+            </summary>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.#ctor">
+            <summary>
+            Constructor.
+            </summary>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Debug``1(System.String,``0)">
+            <summary>
+            Writes the diagnostic message at the Debug level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument">The argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Debug(System.IFormatProvider,System.String)">
+            <summary>
+            Writes the diagnostic message at the Debug level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Debug(System.String)">
+            <summary>
+            Writes the diagnostic message at the Debug level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="message">A string containing one format item.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Debug``1(System.IFormatProvider,System.String,``0)">
+            <summary>
+            Writes the diagnostic message at the Debug level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument">The argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Debug(System.String,System.Object[])">
+            <summary>
+            Writes the diagnostic message at the Debug level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="message">A string containing one format item.</param>
+            <param name="args">Arguments to format..</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Debug(System.IFormatProvider,System.String,System.Object[])">
+            <summary>
+            Writes the diagnostic message at the Debug level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+            <param name="args">Arguments to format..</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Debug(NLog.LogMessageGenerator)">
+            <summary>
+            Writes the diagnostic message at the Debug level.
+            </summary>
+            <param name="messageFunc">A function returning message to be written.</param>
+            <remarks>Function is not evaluated if logging is not enabled.</remarks>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Debug``3(System.String,``0,``1,``2)">
+            <summary>
+            Writes the diagnostic message at the Debug level using the specified parameters.
+            </summary>
+            <typeparam name="TArgument1">The type of the first argument.</typeparam>
+            <typeparam name="TArgument2">The type of the second argument.</typeparam>
+            <typeparam name="TArgument3">The type of the second argument.</typeparam>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument1">The first argument to format.</param>
+            <param name="argument2">The second argument to format.</param>
+            <param name="argument3">The third argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Debug``3(System.IFormatProvider,System.String,``0,``1,``2)">
+            <summary>
+            Writes the diagnostic message at the Debug level using the specified parameters.
+            </summary>
+            <typeparam name="TArgument1">The type of the first argument.</typeparam>
+            <typeparam name="TArgument2">The type of the second argument.</typeparam>
+            <typeparam name="TArgument3">The type of the second argument.</typeparam>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument1">The first argument to format.</param>
+            <param name="argument2">The second argument to format.</param>
+            <param name="argument3">The third argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Debug``2(System.String,``0,``1)">
+            <summary>
+            Writes the diagnostic message at the Debug level using the specified parameters.
+            </summary>
+            <typeparam name="TArgument1">The type of the first argument.</typeparam>
+            <typeparam name="TArgument2">The type of the second argument.</typeparam>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument1">The first argument to format.</param>
+            <param name="argument2">The second argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Debug``2(System.IFormatProvider,System.String,``0,``1)">
+            <summary>
+            Writes the diagnostic message at the Debug level using the specified parameters.
+            </summary>
+            <typeparam name="TArgument1">The type of the first argument.</typeparam>
+            <typeparam name="TArgument2">The type of the second argument.</typeparam>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument1">The first argument to format.</param>
+            <param name="argument2">The second argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Error(System.IFormatProvider,System.String)">
+            <summary>
+            Writes the diagnostic message at the Error level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Error(System.String)">
+            <summary>
+            Writes the diagnostic message at the Error level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="message">A string containing one format item.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Error``1(System.IFormatProvider,System.String,``0)">
+            <summary>
+            Writes the diagnostic message at the Error level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument">The argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Error(System.String,System.Object[])">
+            <summary>
+            Writes the diagnostic message at the Error level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="message">A string containing one format item.</param>
+            <param name="args">Arguments to format..</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Error(System.IFormatProvider,System.String,System.Object[])">
+            <summary>
+            Writes the diagnostic message at the Error level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+            <param name="args">Arguments to format..</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Error(NLog.LogMessageGenerator)">
+            <summary>
+            Writes the diagnostic message at the Error level.
+            </summary>
+            <param name="messageFunc">A function returning message to be written.</param>
+            <remarks>Function is not evaluated if logging is not enabled.</remarks>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Error``3(System.String,``0,``1,``2)">
+            <summary>
+            Writes the diagnostic message at the Error level using the specified parameters.
+            </summary>
+            <typeparam name="TArgument1">The type of the first argument.</typeparam>
+            <typeparam name="TArgument2">The type of the second argument.</typeparam>
+            <typeparam name="TArgument3">The type of the second argument.</typeparam>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument1">The first argument to format.</param>
+            <param name="argument2">The second argument to format.</param>
+            <param name="argument3">The third argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Error``3(System.IFormatProvider,System.String,``0,``1,``2)">
+            <summary>
+            Writes the diagnostic message at the Error level using the specified parameters.
+            </summary>
+            <typeparam name="TArgument1">The type of the first argument.</typeparam>
+            <typeparam name="TArgument2">The type of the second argument.</typeparam>
+            <typeparam name="TArgument3">The type of the second argument.</typeparam>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument1">The first argument to format.</param>
+            <param name="argument2">The second argument to format.</param>
+            <param name="argument3">The third argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Error``2(System.String,``0,``1)">
+            <summary>
+            Writes the diagnostic message at the Error level using the specified parameters.
+            </summary>
+            <typeparam name="TArgument1">The type of the first argument.</typeparam>
+            <typeparam name="TArgument2">The type of the second argument.</typeparam>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument1">The first argument to format.</param>
+            <param name="argument2">The second argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Error``2(System.IFormatProvider,System.String,``0,``1)">
+            <summary>
+            Writes the diagnostic message at the Error level using the specified parameters.
+            </summary>
+            <typeparam name="TArgument1">The type of the first argument.</typeparam>
+            <typeparam name="TArgument2">The type of the second argument.</typeparam>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument1">The first argument to format.</param>
+            <param name="argument2">The second argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Fatal``1(System.String,``0)">
+            <summary>
+            Writes the diagnostic message at the Fatal level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument">The argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Fatal(System.IFormatProvider,System.String)">
+            <summary>
+            Writes the diagnostic message at the Fatal level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Fatal(System.String)">
+            <summary>
+            Writes the diagnostic message at the Fatal level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="message">A string containing one format item.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Fatal``1(System.IFormatProvider,System.String,``0)">
+            <summary>
+            Writes the diagnostic message at the Fatal level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument">The argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Fatal(System.String,System.Object[])">
+            <summary>
+            Writes the diagnostic message at the Fatal level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="message">A string containing one format item.</param>
+            <param name="args">Arguments to format..</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Fatal(System.IFormatProvider,System.String,System.Object[])">
+            <summary>
+            Writes the diagnostic message at the Fatal level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+            <param name="args">Arguments to format..</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Fatal(NLog.LogMessageGenerator)">
+            <summary>
+            Writes the diagnostic message at the Fatal level.
+            </summary>
+            <param name="messageFunc">A function returning message to be written.</param>
+            <remarks>Function is not evaluated if logging is not enabled.</remarks>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Fatal``3(System.String,``0,``1,``2)">
+            <summary>
+            Writes the diagnostic message at the Fatal level using the specified parameters.
+            </summary>
+            <typeparam name="TArgument1">The type of the first argument.</typeparam>
+            <typeparam name="TArgument2">The type of the second argument.</typeparam>
+            <typeparam name="TArgument3">The type of the second argument.</typeparam>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument1">The first argument to format.</param>
+            <param name="argument2">The second argument to format.</param>
+            <param name="argument3">The third argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Fatal``3(System.IFormatProvider,System.String,``0,``1,``2)">
+            <summary>
+            Writes the diagnostic message at the Fatal level using the specified parameters.
+            </summary>
+            <typeparam name="TArgument1">The type of the first argument.</typeparam>
+            <typeparam name="TArgument2">The type of the second argument.</typeparam>
+            <typeparam name="TArgument3">The type of the second argument.</typeparam>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument1">The first argument to format.</param>
+            <param name="argument2">The second argument to format.</param>
+            <param name="argument3">The third argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Fatal``2(System.String,``0,``1)">
+            <summary>
+            Writes the diagnostic message at the Fatal level using the specified parameters.
+            </summary>
+            <typeparam name="TArgument1">The type of the first argument.</typeparam>
+            <typeparam name="TArgument2">The type of the second argument.</typeparam>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument1">The first argument to format.</param>
+            <param name="argument2">The second argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Fatal``2(System.IFormatProvider,System.String,``0,``1)">
+            <summary>
+            Writes the diagnostic message at the Fatal level using the specified parameters.
+            </summary>
+            <typeparam name="TArgument1">The type of the first argument.</typeparam>
+            <typeparam name="TArgument2">The type of the second argument.</typeparam>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument1">The first argument to format.</param>
+            <param name="argument2">The second argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Info``1(System.String,``0)">
+            <summary>
+            Writes the diagnostic message at the Info level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument">The argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Info(System.IFormatProvider,System.String)">
+            <summary>
+            Writes the diagnostic message at the Info level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Info(System.String)">
+            <summary>
+            Writes the diagnostic message at the Info level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="message">A string containing one format item.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Info``1(System.IFormatProvider,System.String,``0)">
+            <summary>
+            Writes the diagnostic message at the Info level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument">The argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Info(System.String,System.Object[])">
+            <summary>
+            Writes the diagnostic message at the Info level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="message">A string containing one format item.</param>
+            <param name="args">Arguments to format..</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Info(System.IFormatProvider,System.String,System.Object[])">
+            <summary>
+            Writes the diagnostic message at the Info level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+            <param name="args">Arguments to format..</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Info(NLog.LogMessageGenerator)">
+            <summary>
+            Writes the diagnostic message at the Info level.
+            </summary>
+            <param name="messageFunc">A function returning message to be written.</param>
+            <remarks>Function is not evaluated if logging is not enabled.</remarks>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Info``3(System.String,``0,``1,``2)">
+            <summary>
+            Writes the diagnostic message at the Info level using the specified parameters.
+            </summary>
+            <typeparam name="TArgument1">The type of the first argument.</typeparam>
+            <typeparam name="TArgument2">The type of the second argument.</typeparam>
+            <typeparam name="TArgument3">The type of the second argument.</typeparam>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument1">The first argument to format.</param>
+            <param name="argument2">The second argument to format.</param>
+            <param name="argument3">The third argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Info``3(System.IFormatProvider,System.String,``0,``1,``2)">
+            <summary>
+            Writes the diagnostic message at the Info level using the specified parameters.
+            </summary>
+            <typeparam name="TArgument1">The type of the first argument.</typeparam>
+            <typeparam name="TArgument2">The type of the second argument.</typeparam>
+            <typeparam name="TArgument3">The type of the second argument.</typeparam>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument1">The first argument to format.</param>
+            <param name="argument2">The second argument to format.</param>
+            <param name="argument3">The third argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Info``2(System.String,``0,``1)">
+            <summary>
+            Writes the diagnostic message at the Info level using the specified parameters.
+            </summary>
+            <typeparam name="TArgument1">The type of the first argument.</typeparam>
+            <typeparam name="TArgument2">The type of the second argument.</typeparam>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument1">The first argument to format.</param>
+            <param name="argument2">The second argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Info``2(System.IFormatProvider,System.String,``0,``1)">
+            <summary>
+            Writes the diagnostic message at the Info level using the specified parameters.
+            </summary>
+            <typeparam name="TArgument1">The type of the first argument.</typeparam>
+            <typeparam name="TArgument2">The type of the second argument.</typeparam>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument1">The first argument to format.</param>
+            <param name="argument2">The second argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Trace``1(System.String,``0)">
+            <summary>
+            Writes the diagnostic message at the Trace level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument">The argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Trace(System.IFormatProvider,System.String)">
+            <summary>
+            Writes the diagnostic message at the Trace level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Trace(System.String)">
+            <summary>
+            Writes the diagnostic message at the Trace level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="message">A string containing one format item.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Trace``1(System.IFormatProvider,System.String,``0)">
+            <summary>
+            Writes the diagnostic message at the Trace level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument">The argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Trace(System.String,System.Object[])">
+            <summary>
+            Writes the diagnostic message at the Trace level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="message">A string containing one format item.</param>
+            <param name="args">Arguments to format..</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Trace(System.IFormatProvider,System.String,System.Object[])">
+            <summary>
+            Writes the diagnostic message at the Trace level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+            <param name="args">Arguments to format..</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Trace(NLog.LogMessageGenerator)">
+            <summary>
+            Writes the diagnostic message at the Trace level.
+            </summary>
+            <param name="messageFunc">A function returning message to be written.</param>
+            <remarks>Function is not evaluated if logging is not enabled.</remarks>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Trace``3(System.String,``0,``1,``2)">
+            <summary>
+            Writes the diagnostic message at the Trace level using the specified parameters.
+            </summary>
+            <typeparam name="TArgument1">The type of the first argument.</typeparam>
+            <typeparam name="TArgument2">The type of the second argument.</typeparam>
+            <typeparam name="TArgument3">The type of the second argument.</typeparam>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument1">The first argument to format.</param>
+            <param name="argument2">The second argument to format.</param>
+            <param name="argument3">The third argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Trace``3(System.IFormatProvider,System.String,``0,``1,``2)">
+            <summary>
+            Writes the diagnostic message at the Trace level using the specified parameters.
+            </summary>
+            <typeparam name="TArgument1">The type of the first argument.</typeparam>
+            <typeparam name="TArgument2">The type of the second argument.</typeparam>
+            <typeparam name="TArgument3">The type of the second argument.</typeparam>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument1">The first argument to format.</param>
+            <param name="argument2">The second argument to format.</param>
+            <param name="argument3">The third argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Trace``2(System.String,``0,``1)">
+            <summary>
+            Writes the diagnostic message at the Trace level using the specified parameters.
+            </summary>
+            <typeparam name="TArgument1">The type of the first argument.</typeparam>
+            <typeparam name="TArgument2">The type of the second argument.</typeparam>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument1">The first argument to format.</param>
+            <param name="argument2">The second argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Trace``2(System.IFormatProvider,System.String,``0,``1)">
+            <summary>
+            Writes the diagnostic message at the Trace level using the specified parameters.
+            </summary>
+            <typeparam name="TArgument1">The type of the first argument.</typeparam>
+            <typeparam name="TArgument2">The type of the second argument.</typeparam>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument1">The first argument to format.</param>
+            <param name="argument2">The second argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Warn``1(System.String,``0)">
+            <summary>
+            Writes the diagnostic message at the Warn level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument">The argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Warn(System.IFormatProvider,System.String)">
+            <summary>
+            Writes the diagnostic message at the Warn level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Warn(System.String)">
+            <summary>
+            Writes the diagnostic message at the Warn level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="message">A string containing one format item.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Warn``1(System.IFormatProvider,System.String,``0)">
+            <summary>
+            Writes the diagnostic message at the Warn level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument">The argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Warn(System.String,System.Object[])">
+            <summary>
+            Writes the diagnostic message at the Warn level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="message">A string containing one format item.</param>
+            <param name="args">Arguments to format..</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Warn(System.IFormatProvider,System.String,System.Object[])">
+            <summary>
+            Writes the diagnostic message at the Warn level using the specified value as
+            a parameter and formatting it with the supplied format provider.
+            </summary>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+            <param name="args">Arguments to format..</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Warn(NLog.LogMessageGenerator)">
+            <summary>
+            Writes the diagnostic message at the Warn level.
+            </summary>
+            <param name="messageFunc">A function returning message to be written.</param>
+            <remarks>Function is not evaluated if logging is not enabled.</remarks>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Warn``3(System.String,``0,``1,``2)">
+            <summary>
+            Writes the diagnostic message at the Warn level using the specified parameters.
+            </summary>
+            <typeparam name="TArgument1">The type of the first argument.</typeparam>
+            <typeparam name="TArgument2">The type of the second argument.</typeparam>
+            <typeparam name="TArgument3">The type of the second argument.</typeparam>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument1">The first argument to format.</param>
+            <param name="argument2">The second argument to format.</param>
+            <param name="argument3">The third argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Warn``3(System.IFormatProvider,System.String,``0,``1,``2)">
+            <summary>
+            Writes the diagnostic message at the Warn level using the specified parameters.
+            </summary>
+            <typeparam name="TArgument1">The type of the first argument.</typeparam>
+            <typeparam name="TArgument2">The type of the second argument.</typeparam>
+            <typeparam name="TArgument3">The type of the second argument.</typeparam>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument1">The first argument to format.</param>
+            <param name="argument2">The second argument to format.</param>
+            <param name="argument3">The third argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Warn``2(System.String,``0,``1)">
+            <summary>
+            Writes the diagnostic message at the Warn level using the specified parameters.
+            </summary>
+            <typeparam name="TArgument1">The type of the first argument.</typeparam>
+            <typeparam name="TArgument2">The type of the second argument.</typeparam>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument1">The first argument to format.</param>
+            <param name="argument2">The second argument to format.</param>
+        </member>
+        <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.Warn``2(System.IFormatProvider,System.String,``0,``1)">
+            <summary>
+            Writes the diagnostic message at the Warn level using the specified parameters.
+            </summary>
+            <typeparam name="TArgument1">The type of the first argument.</typeparam>
+            <typeparam name="TArgument2">The type of the second argument.</typeparam>
+            <param name="formatProvider">An IFormatProvider that supplies culture-specific formatting information.</param>
+            <param name="message">A string containing one format item.</param>
+            <param name="argument1">The first argument to format.</param>
+            <param name="argument2">The second argument to format.</param>
+        </member>
+    </members>
+</doc>
