@@ -77,8 +77,12 @@ namespace InfrastructureTests
             string[] includeAssemblies = new string[]
             {
             };
-            string majorVersion = Environment.GetEnvironmentVariable("majorVersion") ?? "1";
-            string minorVersion = Environment.GetEnvironmentVariable("minorVersion") ?? "0";
+            string majorVersion = BuildConfiguration != "Debug"
+                ? Environment.GetEnvironmentVariable("majorVersion") ?? "1"
+                : "1";
+            string minorVersion = BuildConfiguration != "Debug"
+                ? Environment.GetEnvironmentVariable("minorVersion") ?? "0"
+                : "0";
             string excpectedAssemblyVersion = $"{majorVersion}.{minorVersion}.0.0";
 
             CheckAssembliesVersion(_solutionFolder, _projectName, excpectedAssemblyVersion, includeAssemblies);
