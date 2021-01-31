@@ -22,7 +22,7 @@ variables:
 - group: GetcuReone.Cdo.Logging-variables-group
 - template: global_variables.yml@global_pipeline_template
 - name: 'buildConfiguration'
-  value: 'release'
+  value: 'Release'
 - name: 'majorVersion'
   value: $[variables['Master_Major']]
 - name: 'minorVersion'
