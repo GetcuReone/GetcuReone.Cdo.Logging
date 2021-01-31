@@ -21,7 +21,7 @@ variables:
 - group: global-variables-group
 - group: GetcuReone.Cdo.Logging-variables-group
 - name: 'buildConfiguration'
-  value: 'release'
+  value: 'Release'
 - name: 'majorVersion'
   value: $[variables['Release_Major']]
 - name: 'minorVersion'
