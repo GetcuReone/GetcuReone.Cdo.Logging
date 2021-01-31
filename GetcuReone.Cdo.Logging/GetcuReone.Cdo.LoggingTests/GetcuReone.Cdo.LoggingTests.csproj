@@ -7,14 +7,10 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <None Remove="NLog\Env\config.xml" />
         <None Remove="NLog\NLog.config" />
     </ItemGroup>
 
     <ItemGroup>
-        <Content Include="NLog\Env\config.xml">
-          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </Content>
         <Content Include="NLog\NLog.config">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </Content>
@@ -28,6 +24,7 @@
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
+        <PackageReference Include="GetcuReone.config" Version="[1.0.0,)" />
     </ItemGroup>
 
     <ItemGroup>
