@@ -32,4 +32,10 @@
         <ProjectReference Include="..\Infrastructure\GetcuReone.Cdo.Logging.TestCommon\GetcuReone.Cdo.Logging.TestCommon.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="C:\Users\ItuaZ\.nuget\packages\getcureone.config\1.0.0\contentFiles\any\any\GetcuReone.config">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>
