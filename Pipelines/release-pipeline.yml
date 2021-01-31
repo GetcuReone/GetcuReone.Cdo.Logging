@@ -19,7 +19,7 @@ resources:
 
 variables:
 - group: global-variables-group
-- group: GetcuReone-GetcuReone.Cdo.Logging-variables-group
+- group: GetcuReone.Cdo.Logging-variables-group
 - name: 'buildConfiguration'
   value: 'release'
 - name: 'majorVersion'

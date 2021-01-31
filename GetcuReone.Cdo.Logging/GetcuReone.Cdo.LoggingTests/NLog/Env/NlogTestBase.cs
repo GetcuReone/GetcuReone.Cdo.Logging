@@ -16,8 +16,6 @@ namespace GetcuReone.Cdo.LoggingTests.NLog.Env
         [TestInitialize]
         public virtual void Initialize()
         {
-            ImportConfigFromFile(@"NLog/Env/config.xml", true);
-
             LogFolderPath = Path.Combine(Environment.CurrentDirectory, "logs");
 
             if (!Directory.Exists(LogFolderPath))

@@ -6,13 +6,21 @@
         <IsPackable>false</IsPackable>
     </PropertyGroup>
 
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+        <SignAssembly>true</SignAssembly>
+        <AssemblyOriginatorKeyFile>$(snkFilePath)</AssemblyOriginatorKeyFile>
+        <DelaySign>false</DelaySign>
+        <AssemblyVersion>$(majorVersion).$(minorVersion).0.0</AssemblyVersion>
+        <FileVersion>$(majorVersion).$(minorVersion).0.0</FileVersion>
+    </PropertyGroup>
+
     <ItemGroup>
-        <None Remove="NLog\Env\config.xml" />
+        <None Remove="GetcuReone.config" />
         <None Remove="NLog\NLog.config" />
     </ItemGroup>
 
     <ItemGroup>
-        <Content Include="NLog\Env\config.xml">
+        <Content Include="GetcuReone.config">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </Content>
         <Content Include="NLog\NLog.config">
