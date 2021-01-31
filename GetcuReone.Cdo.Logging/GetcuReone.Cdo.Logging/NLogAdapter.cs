@@ -18,10 +18,10 @@ namespace GetcuReone.Cdo.Logging
         {
             var value = GrConfigManager.Current.Logging[GrConfigKeys.Logging.NlogLoggerName];
 
-            if (value == null)
+            if (value != null)
+                _loggerName = value.Value;
+            else
                 throw new InvalidOperationException($"The configuration file does not contain application setting '{GrConfigKeys.Logging.NlogLoggerName}'.");
-
-            _loggerName = value.Value;
         }
 
         private ILogger logger => _logger ?? (_logger = CreateProxy(_loggerName));
