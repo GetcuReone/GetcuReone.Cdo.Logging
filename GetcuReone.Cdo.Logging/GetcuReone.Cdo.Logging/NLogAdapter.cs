@@ -11,7 +11,6 @@ namespace GetcuReone.Cdo.Logging
     /// </summary>
     public class NLogAdapter : AdapterProxyBase<ILogger, string>
     {
-
         private static readonly string _loggerName;
 
         static NLogAdapter()
