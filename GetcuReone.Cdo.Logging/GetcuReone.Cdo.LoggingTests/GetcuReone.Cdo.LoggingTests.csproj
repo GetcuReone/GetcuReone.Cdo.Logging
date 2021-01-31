@@ -15,23 +15,17 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <None Remove="GetcuReone.config" />
         <None Remove="NLog\NLog.config" />
     </ItemGroup>
 
     <ItemGroup>
+        <Content Include="GetcuReone.config">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
         <Content Include="NLog\NLog.config">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </Content>
-    </ItemGroup>
-
-    <ItemGroup>
-      <None Include="..\..\..\..\..\..\..\..\.nuget\packages\getcureone.config\1.0.0\contentFiles\any\any\GetcuReone.config" Link="GetcuReone.config">
-        <Private>False</Private>
-        <NuGetPackageVersion>1.0.0</NuGetPackageVersion>
-        <NuGetItemType>None</NuGetItemType>
-        <NuGetPackageId>GetcuReone.config</NuGetPackageId>
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
     </ItemGroup>
 
     <ItemGroup>
