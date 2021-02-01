@@ -1,9 +1,8 @@
-﻿using GetcuReone.ComboPatterns.Adapter;
+﻿using GetcuReone.Cdo.Configuration;
+using GetcuReone.ComboPatterns.Adapter;
 using NLog;
 using System;
 using System.ComponentModel;
-using System.Configuration;
-using System.Linq;
 
 namespace GetcuReone.Cdo.Logging
 {
@@ -12,22 +11,16 @@ namespace GetcuReone.Cdo.Logging
     /// </summary>
     public class NLogAdapter : AdapterProxyBase<ILogger, string>
     {
-        /// <summary>
-        /// Name of the setting key in the configuration file that stores the name of the logger.
-        /// </summary>
-        public const string AppLoggerNameKey = "GetcuReone_Logging_NLog_LoggerName";
-
         private static readonly string _loggerName;
 
         static NLogAdapter()
         {
-            Configuration config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
-            KeyValueConfigurationElement value = config.AppSettings.Settings[AppLoggerNameKey];
+            var value = GrConfigManager.Current.Logging[GrConfigKeys.Logging.NlogLoggerName];
 
-            if (value == null)
-                throw new InvalidOperationException($"The configuration file does not contain application setting '{AppLoggerNameKey}'.");
-
-            _loggerName = value.Value;
+            if (value != null)
+                _loggerName = value.Value;
+            else
+                throw new InvalidOperationException($"The configuration file does not contain application setting '{GrConfigKeys.Logging.NlogLoggerName}'.");
         }
 
         private ILogger logger => _logger ?? (_logger = CreateProxy(_loggerName));

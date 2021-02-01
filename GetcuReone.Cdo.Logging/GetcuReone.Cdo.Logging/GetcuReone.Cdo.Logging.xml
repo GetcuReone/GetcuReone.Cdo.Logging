@@ -9,11 +9,6 @@
             Adapter for NLog.
             </summary>
         </member>
-        <member name="F:GetcuReone.Cdo.Logging.NLogAdapter.AppLoggerNameKey">
-            <summary>
-            Name of the setting key in the configuration file that stores the name of the logger.
-            </summary>
-        </member>
         <member name="M:GetcuReone.Cdo.Logging.NLogAdapter.#ctor">
             <summary>
             Constructor.
