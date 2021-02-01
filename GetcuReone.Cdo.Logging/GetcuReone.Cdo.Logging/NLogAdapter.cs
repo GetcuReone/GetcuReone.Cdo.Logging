@@ -16,11 +16,7 @@ namespace GetcuReone.Cdo.Logging
         static NLogAdapter()
         {
             var value = GrConfigManager.Current.Logging[GrConfigKeys.Logging.NlogLoggerName];
-
-            if (value != null)
-                _loggerName = value.Value;
-            else
-                throw new InvalidOperationException($"The configuration file does not contain application setting '{GrConfigKeys.Logging.NlogLoggerName}'.");
+            _loggerName = value?.Value;
         }
 
         private ILogger logger => _logger ?? (_logger = CreateProxy(_loggerName));
@@ -29,7 +25,7 @@ namespace GetcuReone.Cdo.Logging
         /// <summary>
         /// Constructor.
         /// </summary>
-        public NLogAdapter() : base(LogManager.GetLogger)
+        public NLogAdapter() : base(loggerName => loggerName != null ? LogManager.GetLogger(loggerName) : LogManager.GetCurrentClassLogger())
         {
         }
 
