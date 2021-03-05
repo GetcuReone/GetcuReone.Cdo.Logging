@@ -14,7 +14,8 @@
         <PackageTags>getcureone cdo logging</PackageTags>
         <PackageReleaseNotes>
             Changes:
-            - added support for GetcuReone.config.
+            - added support for GetcuReone.config
+            - fix assembly version
         </PackageReleaseNotes>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
         <PackageProjectUrl>https://github.com/GetcuReone/GetcuReone.Cdo.Logging</PackageProjectUrl>
@@ -35,12 +36,12 @@
         <SignAssembly>true</SignAssembly>
         <AssemblyOriginatorKeyFile>$(snkFilePath)</AssemblyOriginatorKeyFile>
         <DelaySign>false</DelaySign>
-        <AssemblyVersion>$(majorVersion).$(minorVersion).0.0</AssemblyVersion>
-        <FileVersion>$(majorVersion).$(minorVersion).0.0</FileVersion>
+        <AssemblyVersion>$(majorVersion).0.0.0</AssemblyVersion>
+        <FileVersion>$(majorVersion).0.0.0</FileVersion>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="ComboPatterns" Version="[3.3.0,)" />
+        <PackageReference Include="ComboPatterns" Version="[3.3.1,)" />
         <PackageReference Include="NLog" Version="[4.7.0,)" />
         <PackageReference Include="GetcuReone.config" Version="[1.0.2,)" />
     </ItemGroup>
