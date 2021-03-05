@@ -43,7 +43,7 @@
     <ItemGroup>
         <PackageReference Include="ComboPatterns" Version="[3.3.1,)" />
         <PackageReference Include="NLog" Version="[4.7.0,)" />
-        <PackageReference Include="GetcuReone.config" Version="[1.0.2,)" />
+        <PackageReference Include="GetcuReone.config" Version="[1.0.4,)" />
     </ItemGroup>
 
     <ItemGroup>

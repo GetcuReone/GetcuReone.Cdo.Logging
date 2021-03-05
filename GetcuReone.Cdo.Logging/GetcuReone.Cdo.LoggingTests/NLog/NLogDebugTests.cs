@@ -19,7 +19,7 @@ namespace GetcuReone.Cdo.LoggingTests.NLog
         [TestMethod]
         [TestCategory(GetcuReoneTC.Unit)]
         [Description("Write info.")]
-        [Timeout(Timeouts.Second.Two)]
+        [Timeout(Timeouts.Second.Five)]
         public void WriteInfoTestCase()
         {
             const string message = "Hey!";
