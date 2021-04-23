@@ -70,17 +70,14 @@ namespace InfrastructureTests
 
         [TestMethod]
         [TestCategory(GetcuReoneTC.Infra)]
-        [Description("Assemblies have major version.")]
+        [Description("Check assembly version.")]
         [Timeout(Timeouts.Minute.One)]
-        public void AssembliesHaveMajorVersionTestCase()
+        public void CheckAssembliesVersionTestCase()
         {
             string[] includeAssemblies = new string[]
             {
             };
-            string majorVersion = BuildConfiguration == "Release"
-                ? Environment.GetEnvironmentVariable("majorVersion") ?? "1"
-                : "1";
-            string excpectedAssemblyVersion = $"{majorVersion}.0.0.0";
+            const string excpectedAssemblyVersion = "1.0.0.0";
 
             CheckAssembliesVersion(_solutionFolder, _projectName, excpectedAssemblyVersion, includeAssemblies);
         }
