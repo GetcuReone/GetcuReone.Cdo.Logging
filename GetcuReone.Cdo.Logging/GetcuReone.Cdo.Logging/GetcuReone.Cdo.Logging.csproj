@@ -1,9 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
+    
+    <Import Project="..\.buildTools\GetcuReone.Lib.props" />
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
-        <RootNamespace>GetcuReone.Cdo.Logging</RootNamespace>
-        <DocumentationFile>GetcuReone.Cdo.Logging.xml</DocumentationFile>
 
         <Authors>Itua Juel-Gaben</Authors>
         <PackageId>GetcuReone.Cdo.Logging</PackageId>
@@ -32,16 +32,8 @@
         <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
     </PropertyGroup>
 
-    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-        <SignAssembly>true</SignAssembly>
-        <AssemblyOriginatorKeyFile>$(snkFilePath)</AssemblyOriginatorKeyFile>
-        <DelaySign>false</DelaySign>
-        <AssemblyVersion>$(majorVersion).0.0.0</AssemblyVersion>
-        <FileVersion>$(majorVersion).0.0.0</FileVersion>
-    </PropertyGroup>
-
     <ItemGroup>
-        <PackageReference Include="ComboPatterns" Version="[3.3.1,)" />
+        <PackageReference Include="ComboPatterns" Version="[4.0.0,)" />
         <PackageReference Include="NLog" Version="[4.7.0,)" />
         <PackageReference Include="GetcuReone.config" Version="[1.0.4,)" />
     </ItemGroup>

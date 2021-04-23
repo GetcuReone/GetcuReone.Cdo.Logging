@@ -7,11 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetcuReone.Cdo.Logging", "G
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{B287643F-D8B8-4F40-94E6-387DB7CBE51E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfrastructureTests", "Infrastructure\InfrastructureTests\InfrastructureTests.csproj", "{9912EDB5-89A6-41FE-9498-79683CF3E3E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfrastructureTests", "Infrastructure\InfrastructureTests\InfrastructureTests.csproj", "{9912EDB5-89A6-41FE-9498-79683CF3E3E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetcuReone.Cdo.LoggingTests", "GetcuReone.Cdo.LoggingTests\GetcuReone.Cdo.LoggingTests.csproj", "{7E928D07-56F0-4DD5-A1A1-5B368EB33687}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetcuReone.Cdo.LoggingTests", "GetcuReone.Cdo.LoggingTests\GetcuReone.Cdo.LoggingTests.csproj", "{7E928D07-56F0-4DD5-A1A1-5B368EB33687}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetcuReone.Cdo.Logging.TestCommon", "Infrastructure\GetcuReone.Cdo.Logging.TestCommon\GetcuReone.Cdo.Logging.TestCommon.csproj", "{E0E4C35E-116B-404D-82FA-FCA271A3E436}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetcuReone.Cdo.Logging.TestCommon", "Infrastructure\GetcuReone.Cdo.Logging.TestCommon\GetcuReone.Cdo.Logging.TestCommon.csproj", "{E0E4C35E-116B-404D-82FA-FCA271A3E436}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".buildTools", ".buildTools", "{70A5FEC5-6FF8-4CFB-B180-9EF0F94E9C6D}"
+	ProjectSection(SolutionItems) = preProject
+		.buildTools\GetcuReone.Common.props = .buildTools\GetcuReone.Common.props
+		.buildTools\GetcuReone.Lib.props = .buildTools\GetcuReone.Lib.props
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
