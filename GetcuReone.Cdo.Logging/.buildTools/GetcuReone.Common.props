@@ -15,7 +15,7 @@
         <SnkFilePath>$([MSBuild]::ValueOrDefault('$(snkFilePath)', '..\..\..\..\..\GetcuReone.snk'))</SnkFilePath>
         <RepositoryBranch>$([MSBuild]::ValueOrDefault('$(RepositoryBranch)', 'develop'))</RepositoryBranch>
 
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <FileVersion>$(majorVersion).$(minorVersion).$(patchVersion).0</FileVersion>
     </PropertyGroup>
 
