@@ -6,7 +6,6 @@
         <NeutralLanguage>en-US</NeutralLanguage>
         <RootNamespace>$(MSBuildProjectName)</RootNamespace>
         <AssemblyName>$(MSBuildProjectName)</AssemblyName>
-        <PackageProjectUrl>https://github.com/GetcuReone/GetcuReone.Cdo.Logging</PackageProjectUrl>
 
         <MajorVersion>$([MSBuild]::ValueOrDefault('$(majorVersion)', '1'))</MajorVersion>
         <MinorVersion>$([MSBuild]::ValueOrDefault('$(minorVersion)', '0'))</MinorVersion>
