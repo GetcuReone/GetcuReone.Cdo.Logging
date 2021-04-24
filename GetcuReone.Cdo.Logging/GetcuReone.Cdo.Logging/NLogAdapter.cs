@@ -15,7 +15,7 @@ namespace GetcuReone.Cdo.Logging
 
         static NLogAdapter()
         {
-            var value = GrConfigManager.Current.Section[GrConfigKeys.Logging.Name].Configs[GrConfigKeys.Logging.NlogLoggerName];
+            var value = GrConfigManager.Current.Sections[GrConfigKeys.Logging.Name].Configs[GrConfigKeys.Logging.NlogLoggerName];
             _loggerName = value?.Value;
         }
 
