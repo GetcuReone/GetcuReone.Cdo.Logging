@@ -14,8 +14,7 @@
         <PackageTags>getcureone cdo logging</PackageTags>
         <PackageReleaseNotes>
             Changes:
-            - added support for GetcuReone.config
-            - fix assembly version
+            - update support for GetcuReone.config
         </PackageReleaseNotes>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
         <PackageProjectUrl>https://github.com/GetcuReone/GetcuReone.Cdo.Logging</PackageProjectUrl>
@@ -35,7 +34,7 @@
     <ItemGroup>
         <PackageReference Include="ComboPatterns" Version="[4.0.0,)" />
         <PackageReference Include="NLog" Version="[4.7.0,)" />
-        <PackageReference Include="GetcuReone.config" Version="[1.0.4,)" />
+        <PackageReference Include="GetcuReone.config" Version="[2.0.0,)" />
     </ItemGroup>
 
     <ItemGroup>
